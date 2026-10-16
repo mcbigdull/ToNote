@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "source_run": "D:\\myAPP\\ToNote\\output\\revised\\莫非定律乐团 - Lidocaine",
+  "input": "D:\\myAPP\\ToNote\\input\\莫非定律乐团 - Lidocaine.mp3",
+  "config": {
+    "min_pitch": 36,
+    "max_pitch": 96,
+    "min_confidence": 0.5,
+    "min_note_duration": 0.08,
+    "pitch_tolerance_cents": 50,
+    "smooth_ms": 70,
+    "stable_ms": 100,
+    "max_gap_ms": 30,
+    "silence_db": -55,
+    "quantization_strength": 1.0,
+    "time_signature": "4/4",
+    "key": null,
+    "bpm": null,
+    "beat_offset": 0.0,
+    "backend": "pyin",
+    "device": "auto",
+    "hop_seconds": 0.01
+  },
+  "octave_check": true,
+  "key": "a minor",
+  "bpm": 125.0,
+  "notes": 358,
+  "corrected_regions": 38,
+  "review_regions": 19,
+  "vocals_file": "D:\\myAPP\\ToNote\\output\\revised\\莫非定律乐团 - Lidocaine\\vocals.wav"
+}

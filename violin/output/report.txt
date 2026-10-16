@@ -1,0 +1,73 @@
+Basic Pitch violin transcription / validation report
+Status: success
+Input: D:\myAPP\ToNote\violin\input\天鹅-小提琴.mp3
+Started (Asia/Shanghai): 2026-10-16T20:42:41.709030+08:00
+Output: D:\myAPP\ToNote\violin\output
+
+Parameters (minimum_note_length is in milliseconds):
+{
+  "onset_threshold": 0.5,
+  "frame_threshold": 0.3,
+  "minimum_note_length": 127.7,
+  "minimum_frequency": 196.0,
+  "maximum_frequency": 2637.0,
+  "multiple_pitch_bends": true,
+  "short_note_ms": 150.0,
+  "harmonic_tolerance_cents": 35.0,
+  "harmonic_overlap_ratio": 0.8,
+  "coincident_onset_sec": 0.08,
+  "coincident_end_sec": 0.15,
+  "max_harmonic": 8,
+  "midi_ticks_per_beat": 9600,
+  "midi_tempo": 120,
+  "violin_program": 40,
+  "bend_range_semitones": 2
+}
+
+basic_pitch_version: 0.4.0
+model_runtime: TENSORFLOW
+raw_note_count: 418
+filtered_note_count: 417
+overlapping_note_count: 172
+overlapping_pair_count: 131
+max_simultaneous_notes: 4
+double_note_duration_sec: 16.61253877551015
+three_plus_note_duration_sec: 1.6395746031745975
+suspected_octave_pair_count: 3
+suspected_harmonic_pair_count: 4
+short_note_count: 13
+out_of_range_count: 1
+same_pitch_overlap_pair_count: 0
+raw_instrument_count: 31
+raw_cross_track_channel_collision_pairs: 0
+original_bend_sample_count: 12880
+filtered_bend_sample_count: 12857
+bends_saturated_sample_count: 11
+raw_midi_duration_sec: 138.66818181818252
+last_filtered_note_end_sec: 138.66527845804987
+notes_extending_past_audio: []
+elapsed_sec: 26.953
+
+Audio: {"duration_sec": 140.41149659863945, "sample_rate": 44100, "channels": 2, "decoder": "Basic Pitch/librosa (original file)"}
+MIDI round-trip verification: {"plain": {"notes": 417, "pitchwheel_events": 0, "source_bends_verified": 0, "max_time_error_sec": 2.5977891162654032e-05, "midi_duration_sec": 138.66526041666654, "ports": 1}, "expressive": {"notes": 417, "pitchwheel_events": 13274, "source_bends_verified": 12857, "max_time_error_sec": 2.5977891162654032e-05, "midi_duration_sec": 138.6652604166671, "ports": 1}}
+
+Interpretation / limits:
+- Raw = upstream predict(..., multiple_pitch_bends=True), no violin range constraint.
+- Filtered = inclusive nearest MIDI centers for configured Hz range; no timing, pitch or polyphony edits.
+- Raw MIDI keeps upstream Electric Piano program, instrument layout and bend events.
+- Plain/expressive use Violin program 40 (zero-based); instruments/channels are one violin, not separated instruments.
+- Plain has no bends. Expressive isolates overlapping notes by channel and preserves every upstream bend sample.
+- Expressive adds +/-2 semitone RPN and zero resets, avoiding raw per-pitch channel cycling conflicts.
+- More than 15 concurrent expressive notes require MIDI ports; some players ignore ports. See validation.ports.
+- Reviews are candidates only; real octave double stops and high harmonics are possible. No auto-deletion.
+- Harmonic checks cannot establish a lone note's true fundamental or determine upward vs downward octave error.
+- Activations/amplitudes are model scores, not calibrated probabilities.
+- Contour bends use 3 bins per semitone (~33.3 cents); frame hop is 256/22050 s (~11.61 ms).
+- Upstream exported bend times use linspace over each note and MIDI saturates at +/-2 semitones.
+- pitch_bends.json retains raw bins, source frame times and exported times/values, including out-of-range notes.
+- No fine-resolution F0, technique labels, onset refinement, rhythm quantization or VioPTT.
+- MIDI tempo 120 is only a seconds-to-ticks encoding; no detected musical tempo is claimed.
+- MIDI ends at last event; trailing silence need not match audio duration. No origin shift or trimming.
+- No reference score yet: precision/recall/F1 and an accuracy percentage are NOT computed.
+- MIDI parsed and channel/timing/bend preservation checked; GUI import in MuseScore is a separate check.
+- Next: compare sustained octave pairs / short repeated notes against annotated audio or reference MIDI.

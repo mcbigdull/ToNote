@@ -1,0 +1,32 @@
+﻿kind,start_sec,end_sec,note_ids,pitches,overlap_ratio,harmonic_number,harmonic_error_cents,score_ratio_high_low,activation_mean_low,activation_mean_high,reason
+short_note,138.27053922902493,138.40985895691608,n000002,79,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,121.0529977324263,121.18199138321995,n000055,71,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,117.81253015873017,117.95184988662132,n000070,71,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,117.673210430839,117.81253015873017,n000071,71,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,114.97712789115646,115.11644761904762,n000082,71,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,114.22247936507937,114.36179909297053,n000085,69,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,112.46808888888889,112.60740861678005,n000090,74,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,90.06992970521542,90.20924943310656,n000150,74,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,79.84673015873017,79.98604988662132,n000178,74,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,60.97928798185941,61.11860770975056,n000220,72,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,60.83996825396825,60.97928798185941,n000221,72,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,2.625138775510204,2.7644585034013605,n000378,71,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+short_note,0.9520181405895691,1.0913378684807256,n000391,79,,,,,,,"Short event; could be a valid fast note, not automatically removed"
+out_of_range,27.00988798185941,27.27691746031746,n000409,101,,,,,,,Outside configured inclusive MIDI centers; retained in raw baseline
+harmonic_overlap,27.00988798185941,27.27691746031746,n000312;n000409,67;101,1.0,7,31.17409353087539,0.3812538010483014,0.8529542088508606,0.32519203424453735,Coincident integer-frequency pair: possible harmonic OR real double stop; no correction
+octave_overlap,73.64315056689342,73.89857006802721,n000188;n000405,76;88,1.0,2,0.0,0.40863174575085065,0.7409989833831787,0.3027957081794739,Coincident integer-frequency pair: possible harmonic OR real double stop; no correction
+octave_overlap,86.82817823129251,87.03715782312925,n000163;n000164,78;90,0.9375000000000383,2,0.0,0.5003161443394583,0.7287865877151489,0.36462369561195374,Coincident integer-frequency pair: possible harmonic OR real double stop; no correction
+octave_overlap,125.41059092970522,125.63118049886621,n000039;n000040,76;88,0.9375000000000431,2,0.0,0.3114986131663276,0.8345221281051636,0.25995248556137085,Coincident integer-frequency pair: possible harmonic OR real double stop; no correction
+polyphony_ge_3,3.4726671201814057,3.7048666666666668,n000374;n000392;n000397,71;76;88,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,3.925456235827664,4.031229931972789,n000392;n000404;n000415,76;88;100,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,15.427037188208617,15.508307029478457,n000340;n000341;n000342,76;88;74,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,25.058127891156463,25.081347845804988,n000319;n000320;n000322,88;76;71,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,25.081347845804988,25.34837732426304,n000318;n000319;n000320,71;88;76,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,36.04886984126984,36.13013968253968,n000286;n000287;n000288,85;73;71,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,46.5855387755102,46.69002857142857,n000261;n000262;n000414,91;83;98,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,46.69002857142857,46.72485850340136,n000260;n000261;n000262;n000414,79;91;83;98,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,46.72485850340136,46.84095827664399,n000260;n000261;n000414,79;91;98,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,66.71846848072562,66.9158380952381,n000204;n000205;n000206,97;69;76,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,70.51749886621316,70.66842857142858,n000199;n000200;n000401,76;74;88,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,91.42958095238095,91.55729070294784,n000147;n000148;n000412,69;67;97,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"
+polyphony_ge_3,99.3282172335601,99.44560090702947,n000126;n000127;n000413,69;67;97,,,,,,,"Three or more simultaneous events; review chord, bow transition, reverb or false notes"

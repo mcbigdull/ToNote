@@ -1,0 +1,3 @@
+# Optional: render MusicXML to PDF without MuseScore.
+verovio==6.3.0
+pypdf==6.19.0

@@ -1,0 +1,7 @@
+reference_id,score_measure,offset_quarter,notated_duration_quarter,pitch_midi,note_name,source,annotation_status
+r0001,2,0,1,79,G5,user_score_image,manual_partial_checked_against_saved_image
+r0002,2,1,1,78,F#5,user_score_image,manual_partial_checked_against_saved_image
+r0003,2,2,1,71,B4,user_score_image,manual_partial_checked_against_saved_image
+r0004,2,3,1,76,E5,user_score_image,manual_partial_checked_against_saved_image
+r0005,2,4,1,74,D5,user_score_image,manual_partial_checked_against_saved_image
+r0006,2,5,1,67,G4,user_score_image,manual_partial_checked_against_saved_image

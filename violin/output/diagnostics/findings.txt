@@ -1,0 +1,44 @@
+2026-10-16 screenshot follow-up: no baseline files changed.
+
+The original MIDI already contains high-pitch extra events and repeated note-ons.
+The repeated notes are not merely MuseScore splitting one MIDI event with ties.
+
+Examples in the original audio/model timeline (score bar numbers cannot be
+mapped exactly from screenshots alone, especially after MIDI tempo inference):
+- 13.6843-13.9874 s: C#7 during a G4-to-A4 transition. Close to the fifth harmonic
+  of A4; a suspicious extra high event, not established ground truth.
+- 46.5739-47.2937 s: G6, and 46.5855-46.8410 s: D7 around the G5 entrance.
+  These are near the second/third harmonics of G5. They have model note scores
+  about 0.37/0.31 versus the G5 events around 0.74-0.76. This is evidence for
+  reviewing harmonic false positives, not permission to delete real double stops.
+- 116.6967-119.2186 s: B4 split into 13 contiguous MIDI events. Note activation
+  remains continuous while model onset activation repeatedly crosses 0.5.
+  Vibrato/spectral modulation is a plausible source of these false attacks.
+
+Using exactly the saved activations, native decoder parameter comparisons:
+- baseline onset 0.5: 417 filtered notes.
+- disabling inferred onsets alone: 417 notes, repeated region unchanged.
+- onset 0.7: 165 filtered notes; the B4 sequence becomes 2 events.
+- onset 0.85: 142 filtered notes, but can miss/merge legitimate changes.
+- disabling Melodia alone: 385 notes; repeated region unchanged.
+This points to model onset activation/threshold sensitivity rather than just the
+extra inferred-onset stage or the Melodia fallback. Fewer notes is not accuracy.
+
+A full onset=0.7 comparison run is saved separately in ../../output_onset070/.
+Its synthetic G3+D4 test retains both overlapping notes. Neither this test nor
+the reduced note count establishes correctness for the real violin performance.
+
+Plain MIDI removes pitch bends. Thus sustained vibrato becomes a fixed semitone
+center, and false repeated note-ons become repeated same-pitch score notes.
+MuseScore additionally chooses rhythmic quantization/voice spelling; rests in
+extra voices do not mean that the whole violin is silent. Original MIDI export
+does not encode the 3/4 meter shown in the screenshot; it uses fixed 120 BPM as a
+time container. Screenshot tempo 147 and bar divisions are not model estimates.
+
+The strict existing harmonic review requires similar note starts/ends and can
+miss harmonics that span several fragmented primary notes. Its previous count
+of 4 candidates is not a count of all false harmonics in this recording.
+
+Next priorities: validate onset settings and true bow reattacks against audio;
+improve harmonic review across primary-note fragments without auto-deletion;
+add a separate notation layer with validated meter/tempo and readable durations.

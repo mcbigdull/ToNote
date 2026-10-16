@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "time_origin": "Original decoded audio sample zero; no trimming or quantization",
+  "raw_bend_unit": "1/3 semitone (Basic Pitch contour argmax, not continuous F0)",
+  "midi_pitch_bend_range_semitones": 2,
+  "export_time_mapping": "Upstream uses linspace(start, end, number_of_bends), including endpoint",
+  "source_frame_time_mapping": "Basic Pitch model_frames_to_time; source frames are end-exclusive",
+  "source_bend_clipping": "Raw bins retained; upstream MIDI conversion saturates at [-8192,8191]",
+  "notes": []
+}

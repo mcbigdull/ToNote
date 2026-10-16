@@ -1,0 +1,20 @@
+{
+  "source": "user-confirmed clipboard image, 2026-10-16",
+  "file": "the_swan_original.png",
+  "size_pixels": [
+    1080,
+    1406
+  ],
+  "sha256": "691ba2f34234a1334f5818ad19178ddb6026f41af5f8a15cc94e77778d1dd5e0",
+  "format": "PNG",
+  "content_changes": "none; canvas matched clipboard image size; no resizing or redrawing",
+  "complete_symbolic_transcription": true,
+  "manual_full_score_file": "the_swan_score.json",
+  "manual_transcription_status": "Complete initial manual transcription; not professionally validated",
+  "professionally_validated": false,
+  "manually_checked_measure_count": 28,
+  "meter": "6/4",
+  "key_signature_sharps": 1,
+  "tempo_marking": "Adagio, no numeric BPM",
+  "visible_polyphonic_chords": false
+}

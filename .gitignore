@@ -1,0 +1,29 @@
+.venv/
+.tools/
+.python/
+.cache/
+__pycache__/
+*.pyc
+
+# Local editor state, temporary render files, and audio decoding scratch space.
+.vscode/
+.idea/
+.codex/
+tmp/
+decode_*/
+synthetic_*/
+/output/*_i70lw004/
+/output/validation/results/*_wibcw0af/
+
+# Credentials and machine-local configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# OS metadata.
+Thumbs.db
+.DS_Store

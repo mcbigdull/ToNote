@@ -1,0 +1,1 @@
+"""Local monophonic vocal transcription."""

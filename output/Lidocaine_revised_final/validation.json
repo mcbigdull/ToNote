@@ -1,0 +1,32 @@
+{
+  "notes": 358,
+  "accidentals": {
+    "flat": 10,
+    "natural": 13,
+    "sharp": 14
+  },
+  "pdf_pages": 3,
+  "low_notes_pending_review": [
+    [
+      "D2",
+      "77.696"
+    ],
+    [
+      "G2",
+      "78.416"
+    ],
+    [
+      "G2",
+      "161.772"
+    ],
+    [
+      "G#2",
+      "169.392"
+    ],
+    [
+      "A2",
+      "170.368"
+    ]
+  ],
+  "midi_xml_readback": "passed"
+}

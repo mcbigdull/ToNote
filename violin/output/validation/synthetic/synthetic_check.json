@@ -1,0 +1,15 @@
+{
+  "expected_double_stop": [
+    55,
+    62
+  ],
+  "detected_double_stop": true,
+  "detected_pitches": [
+    55,
+    62,
+    69
+  ],
+  "note_count": 4,
+  "bends": 483,
+  "reference": "Synthesized tones, not a real violin accuracy benchmark"
+}

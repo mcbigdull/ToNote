@@ -1,0 +1,48 @@
+{
+  "source_score": "D:\\myAPP\\ToNote\\violin\\reference\\the_swan_score.json",
+  "source_image_sha256": "691ba2f34234a1334f5818ad19178ddb6026f41af5f8a15cc94e77778d1dd5e0",
+  "score_json_sha256": "7ff55d7f1879d56a18648fa5f39ea83151049b20fdadb3bfeee718258d513f6b",
+  "audio": "D:\\myAPP\\ToNote\\violin\\input\\天鹅-小提琴.mp3",
+  "audio_duration_sec": 140.19918367346938,
+  "model_output": "D:\\myAPP\\ToNote\\violin\\output\\model_outputs.npz",
+  "model_output_sha256": "d33fd7dd301fb5a38c992267bbe894e0af1055c1ab8df40cbf5254d4870a90a8",
+  "original_model_frame_time_range_sec": [
+    0.0,
+    139.2470612244898
+  ],
+  "manually_entered_measures": 28,
+  "written_noteheads": 122,
+  "sounding_score_events_after_ties": 113,
+  "score_pitch_range": [
+    64,
+    86
+  ],
+  "alignment": {
+    "method": "Constrained DTW: manually transcribed score chroma vs original-audio CQT chroma",
+    "uses_basic_pitch_for_alignment": false,
+    "independently_annotated_audio_onsets": false,
+    "approximate_audio_active_start_sec": 0.8823582766439909,
+    "approximate_audio_active_end_sec": 139.04108843537415,
+    "container_reported_duration_sec": 140.41149659863945,
+    "decoded_audio_duration_sec": 140.19918367346938,
+    "mean_feature_cost": 0.2322721630334854,
+    "warning": "Estimated score-to-recording timing for visual comparison. Not onset/offset ground truth; matching chroma can hide octave ambiguity in time alignment."
+  },
+  "config": {
+    "sample_rate": 22050,
+    "hop_length": 1024,
+    "score_frames_per_quarter": 12,
+    "chroma_octaves": 6,
+    "audio_start_activity_db_below_peak": 26.0,
+    "audio_activity_db_below_peak": 38.0,
+    "normalized_alignment_band": 0.18,
+    "minimum_plot_pitch": 53,
+    "maximum_plot_pitch": 103
+  },
+  "limitations": [
+    "Manual raster-score transcription may contain reading errors; inspect source image.",
+    "Same time axis is an estimated alignment, not independent onset/offset annotation.",
+    "No inference rerun, no baseline or MIDI changes, no model notes deleted.",
+    "Reference intensity is nominal note occupancy, not acoustic energy or calibrated probability."
+  ]
+}

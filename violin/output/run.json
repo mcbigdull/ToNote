@@ -1,0 +1,95 @@
+{
+  "status": "success",
+  "input": "D:\\myAPP\\ToNote\\violin\\input\\天鹅-小提琴.mp3",
+  "output": "D:\\myAPP\\ToNote\\violin\\output",
+  "config": {
+    "onset_threshold": 0.5,
+    "frame_threshold": 0.3,
+    "minimum_note_length": 127.7,
+    "minimum_frequency": 196.0,
+    "maximum_frequency": 2637.0,
+    "multiple_pitch_bends": true,
+    "short_note_ms": 150.0,
+    "harmonic_tolerance_cents": 35.0,
+    "harmonic_overlap_ratio": 0.8,
+    "coincident_onset_sec": 0.08,
+    "coincident_end_sec": 0.15,
+    "max_harmonic": 8,
+    "midi_ticks_per_beat": 9600,
+    "midi_tempo": 120,
+    "violin_program": 40,
+    "bend_range_semitones": 2
+  },
+  "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+  "started": "2026-10-16T20:42:41.709030+08:00",
+  "basic_pitch_version": "0.4.0",
+  "predict_signature": "(audio_path: Union[pathlib.Path, str], model_or_model_path: Union[basic_pitch.inference.Model, pathlib.Path, str] = WindowsPath('D:/myAPP/ToNote/violin/.venv/Lib/site-packages/basic_pitch/saved_models/icassp_2022/nmp'), onset_threshold: float = 0.5, frame_threshold: float = 0.3, minimum_note_length: float = 127.7, minimum_frequency: Optional[float] = None, maximum_frequency: Optional[float] = None, multiple_pitch_bends: bool = False, melodia_trick: bool = True, debug_file: Optional[pathlib.Path] = None, midi_tempo: float = 120) -> Tuple[Dict[str, <built-in function array>], pretty_midi.pretty_midi.PrettyMIDI, List[Tuple[float, float, int, float, Optional[List[int]]]]]",
+  "model_path": "D:\\myAPP\\ToNote\\violin\\.venv\\Lib\\site-packages\\basic_pitch\\saved_models\\icassp_2022\\nmp",
+  "model_runtime": "TENSORFLOW",
+  "input_sha256": "eb8b466de9cb46d5de2e5d8d61355313e3e6a61a5fa85dc3a21bdee368125706",
+  "package_versions": {
+    "tensorflow": "2.14.0",
+    "numpy": "1.26.4",
+    "librosa": "0.10.2.post1",
+    "pretty-midi": "0.2.11.post0",
+    "mido": "1.3.3",
+    "matplotlib": "3.9.2"
+  },
+  "audio": {
+    "duration_sec": 140.41149659863945,
+    "sample_rate": 44100,
+    "channels": 2,
+    "decoder": "Basic Pitch/librosa (original file)"
+  },
+  "raw_note_count": 418,
+  "filtered_note_count": 417,
+  "overlapping_note_count": 172,
+  "overlapping_pair_count": 131,
+  "max_simultaneous_notes": 4,
+  "double_note_duration_sec": 16.61253877551015,
+  "three_plus_note_duration_sec": 1.6395746031745975,
+  "suspected_octave_pair_count": 3,
+  "suspected_harmonic_pair_count": 4,
+  "short_note_count": 13,
+  "out_of_range_count": 1,
+  "same_pitch_overlap_pair_count": 0,
+  "review_counts": {
+    "short_note": 13,
+    "out_of_range": 1,
+    "harmonic_overlap": 1,
+    "octave_overlap": 3,
+    "polyphony_ge_3": 13
+  },
+  "raw_midi_duration_sec": 138.66818181818252,
+  "raw_instrument_count": 31,
+  "raw_cross_track_channel_collision_pairs": 0,
+  "original_bend_sample_count": 12880,
+  "filtered_bend_sample_count": 12857,
+  "bends_saturated_sample_count": 11,
+  "last_filtered_note_end_sec": 138.66527845804987,
+  "notes_extending_past_audio": [],
+  "effective_midi_pitch_range": [
+    55,
+    100
+  ],
+  "validation": {
+    "plain": {
+      "notes": 417,
+      "pitchwheel_events": 0,
+      "source_bends_verified": 0,
+      "max_time_error_sec": 2.5977891162654032e-05,
+      "midi_duration_sec": 138.66526041666654,
+      "ports": 1
+    },
+    "expressive": {
+      "notes": 417,
+      "pitchwheel_events": 13274,
+      "source_bends_verified": 12857,
+      "max_time_error_sec": 2.5977891162654032e-05,
+      "midi_duration_sec": 138.6652604166671,
+      "ports": 1
+    }
+  },
+  "accuracy_metrics": null,
+  "elapsed_sec": 26.953
+}
