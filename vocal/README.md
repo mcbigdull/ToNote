@@ -1,6 +1,6 @@
 # 本地歌曲人声自动扒谱
 
-本项目现位于 `ToNote/vocal/`。以下命令均在此目录执行，共用上一级的 Python 环境与缓存。原输入素材和历史结果仍位于 `../input/`、`../output/`，新运行默认写入本目录的 `output/`。通用 PDF 工具已移至 `../tools/`。
+本项目现位于 `ToNote/vocal/`。以下命令均在此目录执行，共用上一级的 Python 环境与缓存。原输入素材仍位于 `../input/`；历史输出已搬入本目录的 `output/`，新运行也始终默认写入 `vocal/output/`（不受启动目录影响）。通用 PDF 工具已移至 `../tools/`。
 
 面向 **单主唱 + 乐器伴奏** 的 Python CLI。完整实现：FFmpeg 解码 → Demucs 预训练人声分离 → pYIN/CREPE 连续 F0 → 平滑、稳定音高切分 → 原歌曲节拍检测 → 节奏量化 → 单轨 MIDI、MusicXML、CSV、调试图。音频在本地处理，不上传；首次 Demucs 运行会下载预训练模型。
 
@@ -148,3 +148,7 @@ MusicXML 导出现在先按音名建立音符，再由 music21 按调号和小�
 这是可编辑旋律草稿工具。Demucs 提取的是人声声部，不能保证把主唱与和声分开；合唱、叠唱、rap、自由速度、气声和大幅滑音可能不可靠。八度误判和复杂节奏仍需人工校正，不承诺直接生成出版级乐谱。
 
 实现参考：[Demucs](https://github.com/facebookresearch/demucs)、[torchcrepe](https://github.com/maxrmorrison/torchcrepe)、[librosa pYIN](https://librosa.org/doc/0.10.2/generated/librosa.pyin.html)、[music21](https://www.music21.org/music21docs/)。Demucs 上游已归档，因此本项目固定依赖版本。
+
+## 人声分离的 note / contour 热图对比
+
+入口为 [compare_separation.py](compare_separation.py)，使用同一 Basic Pitch 模型对比原曲、现有 HTDemucs 人声和 BS-RoFormer Viperx 1297 人声。完整说明及复用方法见 [HEATMAP_COMPARISON.md](HEATMAP_COMPARISON.md)。结果写入 `output/<歌曲>_separation_compare/`，打开 `index.html` 查看。

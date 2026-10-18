@@ -5,20 +5,19 @@
 ```text
 ToNote/
 ├── vocal/           现有人声转谱项目：源码、测试、依赖和文档
-│   └── output/      人声项目后续运行结果
+│   └── output/      人声项目历史及后续运行结果
 ├── violin/          Basic Pitch 小提琴复音转 MIDI 项目（独立 .venv）
 │   ├── input/       小提琴输入音频
 │   └── output/      小提琴转谱结果
 ├── tools/           通用 MusicXML 转 PDF 工具及其可选依赖
 ├── input/           整理前已有的输入素材，保留原位置
-├── output/          整理前已有的人声结果及验证记录，保留原位置
 ├── .venv/           已安装的 Python 环境
 ├── .python/         本地 Python 运行时
 ├── .cache/          已下载模型和计算缓存
 └── .tools/          本地环境工具
 ```
 
-现有素材和历史结果保留原路径，以保持历史记录中的绝对路径有效。新项目的素材请放入对应项目目录。
+原人声素材保留在外层 input/；历史人声结果已搬入 vocal/output/，后续人声结果也统一写入其中。历史 run.json 内的旧绝对路径保留为运行记录。
 
 ## 人声项目
 
@@ -38,7 +37,7 @@ cd D:\myAPP\ToNote\vocal
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r tools/requirements-pdf.txt
-.\.venv\Scripts\python.exe tools/export_score_pdf.py "output/歌曲名/melody.musicxml"
+.\.venv\Scripts\python.exe tools/export_score_pdf.py "vocal/output/歌曲名/melody.musicxml"
 ```
 
 ## 小提琴项目

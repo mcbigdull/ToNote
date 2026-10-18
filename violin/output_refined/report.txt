@@ -1,0 +1,5 @@
+Baseline 417 -> adjusted decoder 165 -> refined 144 notes
+Merged 21 boundaries; audio onsets 53
+All original files unchanged. See merge_decisions.json for every boundary decision.
+Bends retain adjusted-decoder source timestamps. No rhythm quantization.
+Fewer notes does not establish better accuracy; compare with recording.

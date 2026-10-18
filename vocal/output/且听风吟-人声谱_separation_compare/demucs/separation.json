@@ -1,0 +1,8 @@
+{
+  "model": "htdemucs",
+  "audio_sha256": "ec2eec7b2bf08717730537dcf423fcd5f5547610e88fa1bea2b27fabd65d3b29",
+  "mode": "new",
+  "shifts": 1,
+  "overlap": 0.25,
+  "seed": 0
+}

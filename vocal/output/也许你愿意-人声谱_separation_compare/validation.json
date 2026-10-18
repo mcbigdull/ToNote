@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "aligned_frame_times": true,
+  "full_pitch_range": [
+    20.5,
+    109
+  ],
+  "color_limits": [
+    0,
+    1
+  ],
+  "duration_sec": 255.3730612244898,
+  "frames": 22110,
+  "note_bins": 88,
+  "contour_bins": 264,
+  "last_frame_time": 255.36344671201815,
+  "tail_gap_sec": 0.009614512471642911,
+  "viewer": "continuous_audio_synced",
+  "segment_count": 0,
+  "sources": [
+    "original_mix",
+    "demucs",
+    "bs_roformer"
+  ],
+  "accuracy_metrics": null
+}

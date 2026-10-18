@@ -1,0 +1,37 @@
+{
+  "fingerprint": {
+    "audio_sha256": "f7853f4fe92b2d293b9b78a63906f9b1af83dd3450ea7fa6ce55f61a216340e9",
+    "basic_pitch": "0.4.0",
+    "onset_threshold": 0.5,
+    "frame_threshold": 0.3,
+    "minimum_note_length_ms": 127.7,
+    "multiple_pitch_bends": true,
+    "melodia_trick": true,
+    "pitch_filter": null,
+    "gain_normalization": false,
+    "format_version": 2,
+    "time_mapping": "actual overlapped audio windows; preserve tail"
+  },
+  "runtime": "TENSORFLOW",
+  "elapsed_sec": 12.98399999999674,
+  "note_count": 969,
+  "frames": 26058,
+  "duration_sec": 300.9677551020408,
+  "last_frame_time": 300.96090702947845,
+  "tail_gap_sec": 0.006848072562377183,
+  "shapes": {
+    "note": [
+      26058,
+      88
+    ],
+    "contour": [
+      26058,
+      264
+    ],
+    "onset": [
+      26058,
+      88
+    ]
+  },
+  "interpretation": "Unfiltered Basic Pitch model activations; not a separation accuracy score."
+}

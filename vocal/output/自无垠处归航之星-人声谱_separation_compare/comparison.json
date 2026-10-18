@@ -1,0 +1,15 @@
+{
+  "identity": {
+    "input": "D:\\myAPP\\ToNote\\vocal\\input\\自无垠处归航之星-人声谱.mp3",
+    "input_sha256": "e3b3011567735efc97ed5ca8435669bcdae42eb13d95c2ec640215c4a3068aa7",
+    "bs_model": "model_bs_roformer_ep_317_sdr_12.9755.ckpt",
+    "demucs_vocals": "auto",
+    "schema_version": 1
+  },
+  "started": "2026-10-18T22:05:09",
+  "status": "success",
+  "stage": "render",
+  "cpu_threads": 12,
+  "completed_stage": "render",
+  "updated": "2026-10-18T23:08:21"
+}

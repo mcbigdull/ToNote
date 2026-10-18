@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>自无垠处归航之星-人声谱 · 同步热图</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#10121b;color:#e9edf8;font:15px system-ui,sans-serif}main{max-width:1800px;margin:auto;padding:20px}h1{font-size:23px;margin:0 0 10px}p{color:#aeb8ce;line-height:1.6}a{color:#8dcaff}header{position:sticky;top:0;z-index:5;background:#10121bf5;padding-bottom:12px}.players{display:flex;gap:12px;flex-wrap:wrap}section{flex:1;min-width:240px;background:#202536;border-radius:10px;padding:12px;border:1px solid #333d53}section.active{border-color:#65e5d1}section strong{display:block;margin-bottom:8px}audio{display:block;width:100%;height:36px;margin-bottom:6px}.toolbar{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin:16px 0 4px}button,select{background:#2b344b;color:white;border:1px solid #63718c;border-radius:6px;padding:6px}input{accent-color:#65e5d1}output{font-variant-numeric:tabular-nums;color:#65e5d1}.chart{display:flex;border:1px solid #3a455e;border-radius:8px;overflow:hidden}.labels{width:125px;flex:none;background:#1a2030;padding-top:30px}.axis{position:relative;height:154px;border-bottom:4px solid #10121b}.axis b{position:absolute;left:7px;top:54px;font-size:12px;max-width:86px}.axis span{position:absolute;right:6px;transform:translateY(-50%);font-size:10px;color:#b1bfd5}.viewport{overflow-x:auto;flex:1;min-width:0;scrollbar-color:#687eaa #1c2233}.track{position:relative;cursor:crosshair}.ruler{height:30px;position:relative;background:#20283a}.tick{position:absolute;top:0;height:100%;border-left:1px solid #52607c;padding-left:4px;font:12px monospace;white-space:nowrap}.row{height:154px;border-bottom:4px solid #10121b;background:#000;position:relative}.row img{width:100%;height:150px;display:block;image-rendering:auto}.playhead{position:absolute;top:0;bottom:0;width:2px;background:#69ffdf;box-shadow:0 0 5px #000;pointer-events:none;z-index:2}.playhead:before{content:'';position:absolute;left:-5px;border:6px solid transparent;border-top-color:#69ffdf}.hidden{display:none}.legend{display:inline-block;width:140px;height:9px;background:linear-gradient(90deg,#000004,#51127c,#b73779,#fc8961,#fcfdbf);margin:0 8px}#status{min-height:24px}small{color:#aeb8ce}@media(max-width:650px){main{padding:10px}header{position:static}.labels{width:105px}.toolbar{gap:10px}}
+</style>
+<main><header><h1>自无垠处归航之星-人声谱 · 音频同步热图</h1>
+<div class="players"><section><strong>原曲</strong><audio controls preload="metadata" data-label="原曲" src="original_mix/audio.wav"></audio><a href="original_mix/audio.wav" download>下载音频</a></section><section><strong>HTDemucs 人声</strong><audio controls preload="metadata" data-label="HTDemucs 人声" src="demucs/audio.wav"></audio><a href="demucs/audio.wav" download>下载音频</a></section><section><strong>BS-RoFormer 人声</strong><audio controls preload="metadata" data-label="BS-RoFormer 人声" src="bs_roformer/vocals.mp3"></audio><a href="bs_roformer/vocals.mp3" download>下载音频</a></section></div>
+<div class="toolbar"><label>横向放大 <input id="zoom" type="range" min="15" max="180" value="75"><output id="zoomLabel"></output></label>
+<label>显示 <select id="mode"><option value="both">note + contour</option><option value="note">只看 note</option><option value="contour">只看 contour</option></select></label>
+<label><input id="follow" type="checkbox" checked>跟随播放</label><button id="locate">回到播放位置</button><output id="clock">0:00.00</output></div>
+<small>点击热图跳转；播放另一条音频会接着当前时间切换。关闭“跟随播放”可自由横向浏览。</small><div id="status" role="status">请选择上方任意音频播放</div></header>
+<div class="chart"><div class="labels"><div class="axis" data-kind="note"><b>原曲<br>note</b><span style="top:96.0227%">C1</span><span style="top:82.3864%">C2</span><span style="top:68.7500%">C3</span><span style="top:55.1136%">C4</span><span style="top:41.4773%">C5</span><span style="top:27.8409%">C6</span><span style="top:14.2045%">C7</span><span style="top:0.5682%">C8</span></div><div class="axis" data-kind="note"><b>HTDemucs 人声<br>note</b><span style="top:96.0227%">C1</span><span style="top:82.3864%">C2</span><span style="top:68.7500%">C3</span><span style="top:55.1136%">C4</span><span style="top:41.4773%">C5</span><span style="top:27.8409%">C6</span><span style="top:14.2045%">C7</span><span style="top:0.5682%">C8</span></div><div class="axis" data-kind="note"><b>BS-RoFormer 人声<br>note</b><span style="top:96.0227%">C1</span><span style="top:82.3864%">C2</span><span style="top:68.7500%">C3</span><span style="top:55.1136%">C4</span><span style="top:41.4773%">C5</span><span style="top:27.8409%">C6</span><span style="top:14.2045%">C7</span><span style="top:0.5682%">C8</span></div><div class="axis" data-kind="contour"><b>原曲<br>contour</b><span style="top:96.4015%">C1</span><span style="top:82.7652%">C2</span><span style="top:69.1288%">C3</span><span style="top:55.4924%">C4</span><span style="top:41.8561%">C5</span><span style="top:28.2197%">C6</span><span style="top:14.5833%">C7</span><span style="top:0.9470%">C8</span></div><div class="axis" data-kind="contour"><b>HTDemucs 人声<br>contour</b><span style="top:96.4015%">C1</span><span style="top:82.7652%">C2</span><span style="top:69.1288%">C3</span><span style="top:55.4924%">C4</span><span style="top:41.8561%">C5</span><span style="top:28.2197%">C6</span><span style="top:14.5833%">C7</span><span style="top:0.9470%">C8</span></div><div class="axis" data-kind="contour"><b>BS-RoFormer 人声<br>contour</b><span style="top:96.4015%">C1</span><span style="top:82.7652%">C2</span><span style="top:69.1288%">C3</span><span style="top:55.4924%">C4</span><span style="top:41.8561%">C5</span><span style="top:28.2197%">C6</span><span style="top:14.5833%">C7</span><span style="top:0.9470%">C8</span></div></div><div class="viewport" id="viewport"><div class="track" id="track"><div class="ruler" id="ruler"></div><div class="row" data-kind="note"><img draggable="false" src="player_assets/original_mix_note.png" alt="原曲 note"></div><div class="row" data-kind="note"><img draggable="false" src="player_assets/demucs_note.png" alt="HTDemucs 人声 note"></div><div class="row" data-kind="note"><img draggable="false" src="player_assets/bs_roformer_note.png" alt="BS-RoFormer 人声 note"></div><div class="row" data-kind="contour"><img draggable="false" src="player_assets/original_mix_contour.png" alt="原曲 contour"></div><div class="row" data-kind="contour"><img draggable="false" src="player_assets/demucs_contour.png" alt="HTDemucs 人声 contour"></div><div class="row" data-kind="contour"><img draggable="false" src="player_assets/bs_roformer_contour.png" alt="BS-RoFormer 人声 contour"></div><div class="playhead" id="playhead"></div></div></div></div>
+<p>纵轴为音高（C4 = 中央 C）；时间从原曲开头计。模型响应：0 <span class="legend"></span>1。颜色不是分贝或准确率。note 每半音一格，contour 每半音三格。图片来自完整缓存数据，按音频时间映射，没有按人声音域删音。</p>
+<a href="comparison_full.png">打开静态整曲对照图</a></main>
+<script>
+const duration=332.95673469387754;
+const audios=[...document.querySelectorAll('audio')];
+const viewport=document.getElementById('viewport'),track=document.getElementById('track');
+const head=document.getElementById('playhead'),zoom=document.getElementById('zoom');
+const follow=document.getElementById('follow'),clock=document.getElementById('clock'),status=document.getElementById('status');
+let active=null,position=0,pps=Number(zoom.value),frame=0;
+const clamp=t=>Math.max(0,Math.min(duration,t));
+function format(t){const m=Math.floor(t/60);return `${m}:${(t-m*60).toFixed(2).padStart(5,'0')}`;}
+function seek(audio,t){if(audio.readyState>=1){audio.currentTime=clamp(t);}else{audio._pendingTime=clamp(t);}}
+function paint(center=false){
+  const x=clamp(position)*pps;head.style.left=`${x}px`;clock.textContent=`${format(position)} / ${format(duration)}`;
+  if(center || (follow.checked && active && !active.paused)) viewport.scrollLeft=Math.max(0,x-viewport.clientWidth*.35);
+}
+function tick(){if(!active||active.paused){frame=0;return;}position=active.currentTime;paint();frame=requestAnimationFrame(tick);}
+function animate(){cancelAnimationFrame(frame);frame=requestAnimationFrame(tick);}
+for(const audio of audios){
+ audio.addEventListener('loadedmetadata',()=>{if(audio._pendingTime!==undefined){seek(audio,audio._pendingTime);delete audio._pendingTime;}});
+ audio.addEventListener('play',()=>{
+   if(active!==audio){if(active)position=active.currentTime;active=audio;seek(audio,position);}
+   audios.forEach(other=>{if(other!==audio)other.pause();other.parentElement.classList.toggle('active',other===audio);});
+   status.textContent=`正在播放：${audio.dataset.label}`;animate();paint(true);
+ });
+ audio.addEventListener('pause',()=>{if(active===audio){position=audio.currentTime;cancelAnimationFrame(frame);paint();status.textContent=`已暂停：${audio.dataset.label}`;}});
+ audio.addEventListener('seeking',()=>{if(active!==audio){active=audio;audios.forEach(other=>{if(other!==audio)other.pause();other.parentElement.classList.toggle('active',other===audio);});}position=audio.currentTime;paint(follow.checked);});
+ audio.addEventListener('seeked',()=>{if(active===audio){position=audio.currentTime;paint(follow.checked);}});
+ audio.addEventListener('timeupdate',()=>{if(active===audio){position=audio.currentTime;paint();}});
+ audio.addEventListener('ended',()=>{if(active===audio){position=audio.currentTime;paint();status.textContent='播放结束';}});
+ audio.addEventListener('error',()=>{status.textContent=`无法读取 ${audio.dataset.label}，请保留页面旁的音频文件夹并使用 Chrome 或 Edge 打开。`;});
+}
+function layout(){
+ pps=Number(zoom.value);track.style.width=`${duration*pps}px`;document.getElementById('zoomLabel').textContent=`${pps} 像素/秒`;
+ const ruler=document.getElementById('ruler');ruler.replaceChildren();const step=pps<35?10:5;
+ for(let t=0;t<duration;t+=step){const mark=document.createElement('span');mark.className='tick';mark.style.left=`${t*pps}px`;mark.textContent=format(t).slice(0,-3);ruler.append(mark);}paint(true);
+}
+zoom.addEventListener('input',layout);
+document.getElementById('mode').addEventListener('change',e=>document.querySelectorAll('[data-kind]').forEach(el=>el.classList.toggle('hidden',e.target.value!=='both'&&el.dataset.kind!==e.target.value)));
+track.addEventListener('click',e=>{position=clamp((e.clientX-track.getBoundingClientRect().left)/pps);if(!active){active=audios[0];active.parentElement.classList.add('active');}seek(active,position);paint();});
+document.getElementById('locate').addEventListener('click',()=>paint(true));
+follow.addEventListener('change',()=>{if(follow.checked)paint(true);});
+window.addEventListener('resize',()=>paint(follow.checked));
+layout();
+</script></html>

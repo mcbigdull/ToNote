@@ -16,7 +16,7 @@ from .config import Config, TranscriptionError, note_name, note_number
 def parser():
     result = argparse.ArgumentParser(description="本地歌曲人声自动扒谱：音频 → Demucs → F0 → MIDI / MusicXML")
     result.add_argument("audio", type=Path)
-    result.add_argument("--output", type=Path, default=Path("output"))
+    result.add_argument("--output", type=Path, default=Path(__file__).resolve().parents[1] / "output")
     result.add_argument("--skip-separation", action="store_true", help="输入已是纯人声时跳过 Demucs")
     result.add_argument("--vocals-file", type=Path, help="复用已分离的人声 WAV；节拍仍使用原歌曲")
     result.add_argument("--octave-check", action=argparse.BooleanOptionalAction, default=True,

@@ -1,0 +1,30 @@
+{
+  "model": "model_bs_roformer_ep_317_sdr_12.9755.ckpt",
+  "audio_separator_version": "0.47.0",
+  "input_sha256": "0cc7ca89143617af5ae783f2e0838b583fb380203a79b80c14f6b8a47a83fb49",
+  "package_versions": {
+    "numpy": "2.4.6",
+    "librosa": "0.11.0",
+    "soundfile": "0.14.0",
+    "einops": "0.8.2",
+    "rotary-embedding-torch": "0.6.5"
+  },
+  "torch_version": "2.5.1+cpu",
+  "device": "cpu",
+  "overlap": 2,
+  "batch_size": 1,
+  "segment_size": "model config",
+  "seed": 0,
+  "cpu_threads": 12,
+  "normalization_threshold": 1.0,
+  "amplification_threshold": 0.0,
+  "elapsed_sec": 2664.1410000000033,
+  "audio_sha256": "9f50bec4ea7c705642ff484ba96b0a010169fd73a45d01ed68afdf7f963ace48",
+  "model_sha256": "5b84f37e8d444c8cb30c79d77f613a41c05868ff9c9ac6c7049c00aefae115aa",
+  "config_sha256": {
+    "model_bs_roformer_ep_317_sdr_12.9755.yaml": "2bfdd16c656bd9519aba757cc4f8834b7ede675eb1e00ec4772d74ae1c41af7f"
+  },
+  "sample_rate": 44100,
+  "frames": 11917440,
+  "peak": 0.7812628149986267
+}

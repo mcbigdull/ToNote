@@ -23,6 +23,7 @@ class Config:
     midi_tempo: int = 120  # time encoding only; no beat detection/quantization
     violin_program: int = 40  # zero-based General MIDI
     bend_range_semitones: int = 2
+    refine_notes: bool = False
 
     def validate(self):
         for name, value in asdict(self).items():
@@ -63,4 +64,45 @@ def parser():
     result.add_argument("--multiple-pitch-bends", action="store_true", default=True,
                         help="Always enabled, including when this flag is omitted")
     result.add_argument("--verbose", action="store_true")
+    result.add_argument("--refine", dest="refine_notes", action="store_true",
+                        help="Also create an independent refined/ result after baseline transcription")
+    result.add_argument("--melodia-trick", action=argparse.BooleanOptionalAction, default=True,
+                        help="Enable/disable Basic Pitch's residual-note recovery")
+    return result
+
+
+@dataclass(frozen=True)
+class RefinementConfig(Config):
+    onset_threshold: float = 0.7
+    merge_gap_ms: float = 40.0
+    onset_tolerance_ms: float = 60.0
+    strong_model_onset: float = 0.9
+    bridge_active_fraction: float = 0.8
+    audio_onset_delta: float = 0.12
+    audio_onset_wait_ms: float = 80.0
+    audio_sample_rate: int = 22050
+    audio_hop_length: int = 256
+    vibrato_max_size: int = 3
+    overlap_tolerance_sec: float = 1e-6
+
+    def validate(self):
+        super().validate()
+        if self.merge_gap_ms < 0 or self.onset_tolerance_ms < 0 or self.audio_onset_wait_ms < 0:
+            raise ValueError("Refinement timing tolerances must be nonnegative")
+        for name in ("strong_model_onset", "bridge_active_fraction", "audio_onset_delta"):
+            if not 0 < getattr(self, name) <= 1:
+                raise ValueError(f"{name} must be in (0, 1]")
+        if self.audio_sample_rate <= 0 or self.audio_hop_length <= 0 or self.vibrato_max_size < 1:
+            raise ValueError("Invalid onset analysis settings")
+
+
+def refinement_parser():
+    result = parser()
+    root = Path(__file__).resolve().parents[1]
+    result.description = "Refine saved Basic Pitch activations without rerunning the model"
+    result.set_defaults(onset_threshold=RefinementConfig.onset_threshold, output=root / "output_refined")
+    result.add_argument("--model-output", type=Path, default=root / "output/model_outputs.npz")
+    for name in ("merge_gap_ms", "onset_tolerance_ms", "strong_model_onset", "audio_onset_delta"):
+        result.add_argument("--" + name.replace("_", "-"), type=float,
+                            default=getattr(RefinementConfig(), name))
     return result

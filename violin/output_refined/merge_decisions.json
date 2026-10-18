@@ -1,0 +1,1919 @@
+[
+  {
+    "left_source_ids": [
+      "n000120"
+    ],
+    "right_source_id": "n000090",
+    "pitch_midi": 64,
+    "boundary_sec": 96.74951836734694,
+    "gap_sec": 83.87796009070294,
+    "model_onset_peak": 0.4501200318336487,
+    "nearest_audio_onset_distance_sec": 1.6218195011337855,
+    "bridge_active_fraction": 0.00027536830510808204,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000071"
+    ],
+    "right_source_id": "n000061",
+    "pitch_midi": 66,
+    "boundary_sec": 33.12058775510204,
+    "gap_sec": 19.784630385487525,
+    "model_onset_peak": 0.7040197849273682,
+    "nearest_audio_onset_distance_sec": 0.09020226757369443,
+    "bridge_active_fraction": 0.0011668611435239206,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000061"
+    ],
+    "right_source_id": "n000088",
+    "pitch_midi": 66,
+    "boundary_sec": 98.34136916099774,
+    "gap_sec": 63.59410068027212,
+    "model_onset_peak": 0.6927887797355652,
+    "nearest_audio_onset_distance_sec": 0.029968707482979084,
+    "bridge_active_fraction": 0.00018158707100054475,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000096"
+    ],
+    "right_source_id": "n000116",
+    "pitch_midi": 67,
+    "boundary_sec": 13.335957369614512,
+    "gap_sec": 7.29491746031746,
+    "model_onset_peak": 0.4531565308570862,
+    "nearest_audio_onset_distance_sec": 0.2941560090702957,
+    "bridge_active_fraction": 0.020569620253164556,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000116"
+    ],
+    "right_source_id": "n000089",
+    "pitch_midi": 67,
+    "boundary_sec": 26.847348299319727,
+    "gap_sec": 13.163091609977323,
+    "model_onset_peak": 0.4749537408351898,
+    "nearest_audio_onset_distance_sec": 0.9338789115646229,
+    "bridge_active_fraction": 0.0017528483786152498,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000089"
+    ],
+    "right_source_id": "n000106",
+    "pitch_midi": 67,
+    "boundary_sec": 90.49949886621314,
+    "gap_sec": 62.51308888888888,
+    "model_onset_peak": 0.6113801598548889,
+    "nearest_audio_onset_distance_sec": 0.9749637188208595,
+    "bridge_active_fraction": 0.0003694808793644929,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000106"
+    ],
+    "right_source_id": "n000130",
+    "pitch_midi": 67,
+    "boundary_sec": 99.15406757369615,
+    "gap_sec": 7.60838684807257,
+    "model_onset_peak": 0.4843909442424774,
+    "nearest_audio_onset_distance_sec": 0.09962857142856762,
+    "bridge_active_fraction": 0.0409711684370258,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000130"
+    ],
+    "right_source_id": "n000108",
+    "pitch_midi": 67,
+    "boundary_sec": 113.1879074829932,
+    "gap_sec": 13.753916553287993,
+    "model_onset_peak": 0.4424411356449127,
+    "nearest_audio_onset_distance_sec": 0.9774766439909257,
+    "bridge_active_fraction": 0.0016792611251049538,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000108"
+    ],
+    "right_source_id": "n000097",
+    "pitch_midi": 67,
+    "boundary_sec": 115.76789024943311,
+    "gap_sec": 1.6963405895691608,
+    "model_onset_peak": 0.6079055070877075,
+    "nearest_audio_onset_distance_sec": 0.030023582766432355,
+    "bridge_active_fraction": 0.013513513513513514,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000074"
+    ],
+    "right_source_id": "n000070",
+    "pitch_midi": 69,
+    "boundary_sec": 13.661036734693878,
+    "gap_sec": 5.739180498866213,
+    "model_onset_peak": 0.8235939741134644,
+    "nearest_audio_onset_distance_sec": 0.0309233560090707,
+    "bridge_active_fraction": 0.006024096385542169,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000070"
+    ],
+    "right_source_id": "n000040",
+    "pitch_midi": 69,
+    "boundary_sec": 66.70685850340136,
+    "gap_sec": 52.47564897959184,
+    "model_onset_peak": 0.8732165694236755,
+    "nearest_audio_onset_distance_sec": 0.015681179138312018,
+    "bridge_active_fraction": 0.0008802816901408451,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000040"
+    ],
+    "right_source_id": "n000034",
+    "pitch_midi": 69,
+    "boundary_sec": 76.40760907029478,
+    "gap_sec": 8.60812879818593,
+    "model_onset_peak": 0.8202569484710693,
+    "nearest_audio_onset_distance_sec": 0.9264498866213131,
+    "bridge_active_fraction": 0.006702412868632708,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000034"
+    ],
+    "right_source_id": "n000029",
+    "pitch_midi": 69,
+    "boundary_sec": 91.40636099773242,
+    "gap_sec": 13.89452018140588,
+    "model_onset_peak": 0.8997264504432678,
+    "nearest_audio_onset_distance_sec": 1.8818258503401353,
+    "bridge_active_fraction": 0.0024916943521594683,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000029"
+    ],
+    "right_source_id": "n000027",
+    "pitch_midi": 69,
+    "boundary_sec": 99.28177732426305,
+    "gap_sec": 5.586966893424048,
+    "model_onset_peak": 0.8379495739936829,
+    "nearest_audio_onset_distance_sec": 0.02808117913832575,
+    "bridge_active_fraction": 0.006198347107438017,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000027"
+    ],
+    "right_source_id": "n000016",
+    "pitch_midi": 69,
+    "boundary_sec": 114.03671972789115,
+    "gap_sec": 14.184769614512476,
+    "model_onset_peak": 0.8196112513542175,
+    "nearest_audio_onset_distance_sec": 1.7611941043083874,
+    "bridge_active_fraction": 0.005695687550854353,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000063"
+    ],
+    "right_source_id": "n000059",
+    "pitch_midi": 70,
+    "boundary_sec": 35.06073786848073,
+    "gap_sec": 4.960028117913836,
+    "model_onset_peak": 0.8474740386009216,
+    "nearest_audio_onset_distance_sec": 0.4513954648526095,
+    "bridge_active_fraction": 0.0069767441860465115,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000104"
+    ],
+    "right_source_id": "n000073",
+    "pitch_midi": 71,
+    "boundary_sec": 7.840586394557823,
+    "gap_sec": 4.147329705215419,
+    "model_onset_peak": 0.745267927646637,
+    "nearest_audio_onset_distance_sec": 0.7972367346938771,
+    "bridge_active_fraction": 0.011111111111111112,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000073"
+    ],
+    "right_source_id": "n000069",
+    "pitch_midi": 71,
+    "boundary_sec": 14.057059863945579,
+    "gap_sec": 5.7856204081632665,
+    "model_onset_peak": 0.7551983594894409,
+    "nearest_audio_onset_distance_sec": 0.020597278911564487,
+    "bridge_active_fraction": 0.025896414342629483,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000069"
+    ],
+    "right_source_id": "n000112",
+    "pitch_midi": 71,
+    "boundary_sec": 24.24542947845805,
+    "gap_sec": 9.793630385487528,
+    "model_onset_peak": 0.4838205575942993,
+    "nearest_audio_onset_distance_sec": 0.7856816326530627,
+    "bridge_active_fraction": 0.012956419316843345,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000112"
+    ],
+    "right_source_id": "n000126",
+    "pitch_midi": 71,
+    "boundary_sec": 30.100709750566892,
+    "gap_sec": 4.763942403628118,
+    "model_onset_peak": 0.5093317627906799,
+    "nearest_audio_onset_distance_sec": 1.249916099773241,
+    "bridge_active_fraction": 0.03140096618357488,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000126"
+    ],
+    "right_source_id": "n000058",
+    "pitch_midi": 71,
+    "boundary_sec": 35.525136961451246,
+    "gap_sec": 4.971638095238095,
+    "model_onset_peak": 0.7312970161437988,
+    "nearest_audio_onset_distance_sec": 0.44257278911565123,
+    "bridge_active_fraction": 0.0069605568445475635,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000058"
+    ],
+    "right_source_id": "n000039",
+    "pitch_midi": 71,
+    "boundary_sec": 67.57889070294785,
+    "gap_sec": 31.448751020408167,
+    "model_onset_peak": 0.7626374363899231,
+    "nearest_audio_onset_distance_sec": 0.014397278911559397,
+    "bridge_active_fraction": 0.0003671071953010279,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000039"
+    ],
+    "right_source_id": "n000115",
+    "pitch_midi": 71,
+    "boundary_sec": 77.35962721088436,
+    "gap_sec": 8.863548299319731,
+    "model_onset_peak": 0.479282408952713,
+    "nearest_audio_onset_distance_sec": 0.02556825396825957,
+    "bridge_active_fraction": 0.0013020833333333333,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000115"
+    ],
+    "right_source_id": "n000031",
+    "pitch_midi": 71,
+    "boundary_sec": 87.75826031746033,
+    "gap_sec": 9.398891156462597,
+    "model_onset_peak": 0.8333067297935486,
+    "nearest_audio_onset_distance_sec": 0.8026467120181309,
+    "bridge_active_fraction": 0.0049079754601227,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000031"
+    ],
+    "right_source_id": "n000028",
+    "pitch_midi": 71,
+    "boundary_sec": 93.7296403628118,
+    "gap_sec": 4.9497020408163195,
+    "model_onset_peak": 0.7437846064567566,
+    "nearest_audio_onset_distance_sec": 4.205105215419508,
+    "bridge_active_fraction": 0.01627906976744186,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000028"
+    ],
+    "right_source_id": "n000026",
+    "pitch_midi": 71,
+    "boundary_sec": 99.67780045351473,
+    "gap_sec": 5.5069809523809425,
+    "model_onset_peak": 0.8051717877388,
+    "nearest_audio_onset_distance_sec": 0.006145124716553596,
+    "bridge_active_fraction": 0.006276150627615063,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000026"
+    ],
+    "right_source_id": "n000015",
+    "pitch_midi": 71,
+    "boundary_sec": 114.97712789115646,
+    "gap_sec": 14.881368253968247,
+    "model_onset_peak": 0.7726659178733826,
+    "nearest_audio_onset_distance_sec": 0.8207859410430842,
+    "bridge_active_fraction": 0.01474010861132661,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000015"
+    ],
+    "right_source_id": "n000014",
+    "pitch_midi": 71,
+    "boundary_sec": 115.32671111111111,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7297993898391724,
+    "nearest_audio_onset_distance_sec": 0.47120272108843153,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000015",
+      "n000014"
+    ],
+    "right_source_id": "n000013",
+    "pitch_midi": 71,
+    "boundary_sec": 115.52408072562359,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7616984248161316,
+    "nearest_audio_onset_distance_sec": 0.2738331065759496,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000015",
+      "n000014",
+      "n000013"
+    ],
+    "right_source_id": "n000012",
+    "pitch_midi": 71,
+    "boundary_sec": 115.67501043083901,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.732096254825592,
+    "nearest_audio_onset_distance_sec": 0.12290340136053146,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000015",
+      "n000014",
+      "n000013",
+      "n000012"
+    ],
+    "right_source_id": "n000011",
+    "pitch_midi": 71,
+    "boundary_sec": 116.69668843537416,
+    "gap_sec": 0.6733786848072612,
+    "model_onset_peak": 0.7687107920646667,
+    "nearest_audio_onset_distance_sec": 0.02802630385488669,
+    "bridge_active_fraction": 0.03389830508474576,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000011"
+    ],
+    "right_source_id": "n000010",
+    "pitch_midi": 71,
+    "boundary_sec": 117.31330113378685,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7037539482116699,
+    "nearest_audio_onset_distance_sec": 0.6446390022675814,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000011",
+      "n000010"
+    ],
+    "right_source_id": "n000094",
+    "pitch_midi": 71,
+    "boundary_sec": 121.02977777777777,
+    "gap_sec": 1.811156462585032,
+    "model_onset_peak": 0.6470157504081726,
+    "nearest_audio_onset_distance_sec": 0.07703401360542728,
+    "bridge_active_fraction": 0.07643312101910828,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000072"
+    ],
+    "right_source_id": "n000068",
+    "pitch_midi": 72,
+    "boundary_sec": 14.451799092970521,
+    "gap_sec": 4.437579138321995,
+    "model_onset_peak": 0.7518455386161804,
+    "nearest_audio_onset_distance_sec": 0.415336507936507,
+    "bridge_active_fraction": 0.012987012987012988,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000068"
+    ],
+    "right_source_id": "n000041",
+    "pitch_midi": 72,
+    "boundary_sec": 60.60776870748299,
+    "gap_sec": 45.726400453514735,
+    "model_onset_peak": 0.7642242312431335,
+    "nearest_audio_onset_distance_sec": 1.3504444444444417,
+    "bridge_active_fraction": 0.00101010101010101,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000041"
+    ],
+    "right_source_id": "n000087",
+    "pitch_midi": 72,
+    "boundary_sec": 68.49607891156462,
+    "gap_sec": 5.681130612244893,
+    "model_onset_peak": 0.4265056550502777,
+    "nearest_audio_onset_distance_sec": 0.902790929705219,
+    "bridge_active_fraction": 0.02434077079107505,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000087"
+    ],
+    "right_source_id": "n000081",
+    "pitch_midi": 72,
+    "boundary_sec": 94.17081950113379,
+    "gap_sec": 24.129329705215426,
+    "model_onset_peak": 0.6405757665634155,
+    "nearest_audio_onset_distance_sec": 4.20051836734693,
+    "bridge_active_fraction": 0.004784688995215311,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000081"
+    ],
+    "right_source_id": "n000025",
+    "pitch_midi": 72,
+    "boundary_sec": 100.09575963718821,
+    "gap_sec": 3.764200453514732,
+    "model_onset_peak": 0.7090044021606445,
+    "nearest_audio_onset_distance_sec": 0.424104308390028,
+    "bridge_active_fraction": 0.021406727828746176,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000025"
+    ],
+    "right_source_id": "n000122",
+    "pitch_midi": 72,
+    "boundary_sec": 110.50471882086167,
+    "gap_sec": 10.014219954648524,
+    "model_onset_peak": 0.5146538019180298,
+    "nearest_audio_onset_distance_sec": 1.705712018140602,
+    "bridge_active_fraction": 0.001152073732718894,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000122"
+    ],
+    "right_source_id": "n000018",
+    "pitch_midi": 72,
+    "boundary_sec": 110.72530839002268,
+    "gap_sec": 0.011609977324269494,
+    "model_onset_peak": 0.8018648624420166,
+    "nearest_audio_onset_distance_sec": 1.4851224489795953,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000122",
+      "n000018"
+    ],
+    "right_source_id": "n000009",
+    "pitch_midi": 72,
+    "boundary_sec": 119.21862131519273,
+    "gap_sec": 7.563230839002259,
+    "model_onset_peak": 0.7977093458175659,
+    "nearest_audio_onset_distance_sec": 1.7341224489796048,
+    "bridge_active_fraction": 0.004573170731707317,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000062"
+    ],
+    "right_source_id": "n000057",
+    "pitch_midi": 73,
+    "boundary_sec": 35.94438004535147,
+    "gap_sec": 2.8586222222222233,
+    "model_onset_peak": 0.8428099751472473,
+    "nearest_audio_onset_distance_sec": 0.023329705215424212,
+    "bridge_active_fraction": 0.012048192771084338,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000057"
+    ],
+    "right_source_id": "n000083",
+    "pitch_midi": 73,
+    "boundary_sec": 78.18521950113379,
+    "gap_sec": 41.78805034013606,
+    "model_onset_peak": 0.6766328811645508,
+    "nearest_audio_onset_distance_sec": 0.8511605442176915,
+    "bridge_active_fraction": 0.00303951367781155,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000076"
+    ],
+    "right_source_id": "n000075",
+    "pitch_midi": 74,
+    "boundary_sec": 4.6813886621315195,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7695930600166321,
+    "nearest_audio_onset_distance_sec": 0.4785768707482996,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000076",
+      "n000075"
+    ],
+    "right_source_id": "n000067",
+    "pitch_midi": 74,
+    "boundary_sec": 14.951028117913832,
+    "gap_sec": 9.921340136054422,
+    "model_onset_peak": 0.7604786157608032,
+    "nearest_audio_onset_distance_sec": 0.9145655328798181,
+    "bridge_active_fraction": 0.011627906976744186,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000067"
+    ],
+    "right_source_id": "n000066",
+    "pitch_midi": 74,
+    "boundary_sec": 15.299327437641724,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7184407711029053,
+    "nearest_audio_onset_distance_sec": 1.2628648526077093,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000067",
+      "n000066"
+    ],
+    "right_source_id": "n000064",
+    "pitch_midi": 74,
+    "boundary_sec": 25.895330158730157,
+    "gap_sec": 10.3870231292517,
+    "model_onset_peak": 0.8217218518257141,
+    "nearest_audio_onset_distance_sec": 0.018139229024946246,
+    "bridge_active_fraction": 0.0011098779134295228,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000064"
+    ],
+    "right_source_id": "n000125",
+    "pitch_midi": 74,
+    "boundary_sec": 36.39716916099773,
+    "gap_sec": 9.59626077097505,
+    "model_onset_peak": 0.6131300330162048,
+    "nearest_audio_onset_distance_sec": 0.42945941043083025,
+    "bridge_active_fraction": 0.007211538461538462,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000125"
+    ],
+    "right_source_id": "n000045",
+    "pitch_midi": 74,
+    "boundary_sec": 50.01304988662131,
+    "gap_sec": 13.023771882086166,
+    "model_onset_peak": 0.7161892056465149,
+    "nearest_audio_onset_distance_sec": 0.21785714285713453,
+    "bridge_active_fraction": 0.002657218777679362,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000045"
+    ],
+    "right_source_id": "n000042",
+    "pitch_midi": 74,
+    "boundary_sec": 57.99423990929706,
+    "gap_sec": 5.565030839002276,
+    "model_onset_peak": 0.8219031095504761,
+    "nearest_audio_onset_distance_sec": 0.00920680272108143,
+    "bridge_active_fraction": 0.006211180124223602,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000042"
+    ],
+    "right_source_id": "n000091",
+    "pitch_midi": 74,
+    "boundary_sec": 62.73367845804989,
+    "gap_sec": 3.7642004535147393,
+    "model_onset_peak": 0.614715039730072,
+    "nearest_audio_onset_distance_sec": 0.44781814058956826,
+    "bridge_active_fraction": 0.0030581039755351682,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000091"
+    ],
+    "right_source_id": "n000102",
+    "pitch_midi": 74,
+    "boundary_sec": 69.99504988662132,
+    "gap_sec": 6.6808725623582745,
+    "model_onset_peak": 0.6261754035949707,
+    "nearest_audio_onset_distance_sec": 0.46590249433106123,
+    "bridge_active_fraction": 0.0034482758620689655,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000102"
+    ],
+    "right_source_id": "n000095",
+    "pitch_midi": 74,
+    "boundary_sec": 79.96282993197279,
+    "gap_sec": 9.306011337868483,
+    "model_onset_peak": 0.5972306728363037,
+    "nearest_audio_onset_distance_sec": 0.29694331065759627,
+    "bridge_active_fraction": 0.021065675340768277,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000095"
+    ],
+    "right_source_id": "n000030",
+    "pitch_midi": 74,
+    "boundary_sec": 89.51265079365079,
+    "gap_sec": 9.097031746031732,
+    "model_onset_peak": 0.7139236927032471,
+    "nearest_audio_onset_distance_sec": 0.011884353741493214,
+    "bridge_active_fraction": 0.0012674271229404308,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000030"
+    ],
+    "right_source_id": "n000118",
+    "pitch_midi": 74,
+    "boundary_sec": 100.4440589569161,
+    "gap_sec": 10.049049886621319,
+    "model_onset_peak": 0.6395750641822815,
+    "nearest_audio_onset_distance_sec": 0.4234240362811903,
+    "bridge_active_fraction": 0.001148105625717566,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000118"
+    ],
+    "right_source_id": "n000017",
+    "pitch_midi": 74,
+    "boundary_sec": 112.2126693877551,
+    "gap_sec": 11.188111564625856,
+    "model_onset_peak": 0.7485271692276001,
+    "nearest_audio_onset_distance_sec": 0.002238548752828251,
+    "bridge_active_fraction": 0.0010309278350515464,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000017"
+    ],
+    "right_source_id": "n000008",
+    "pitch_midi": 74,
+    "boundary_sec": 120.06614965986394,
+    "gap_sec": 6.982731972789111,
+    "model_onset_peak": 0.8205735683441162,
+    "nearest_audio_onset_distance_sec": 0.8865941043084007,
+    "bridge_active_fraction": 0.0033003300330033004,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000008"
+    ],
+    "right_source_id": "n000007",
+    "pitch_midi": 74,
+    "boundary_sec": 120.92528798185941,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7800038456916809,
+    "nearest_audio_onset_distance_sec": 0.027455782312927113,
+    "bridge_active_fraction": 1.0,
+    "merged": false,
+    "reason": "audio_attack"
+  },
+  {
+    "left_source_ids": [
+      "n000007"
+    ],
+    "right_source_id": "n000005",
+    "pitch_midi": 74,
+    "boundary_sec": 127.68743038548752,
+    "gap_sec": 6.529942857142856,
+    "model_onset_peak": 0.7000487446784973,
+    "nearest_audio_onset_distance_sec": 0.03393015873017191,
+    "bridge_active_fraction": 0.003527336860670194,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000129"
+    ],
+    "right_source_id": "n000124",
+    "pitch_midi": 76,
+    "boundary_sec": 15.368987301587302,
+    "gap_sec": 11.047507936507937,
+    "model_onset_peak": 0.5921810865402222,
+    "nearest_audio_onset_distance_sec": 1.3325247165532872,
+    "bridge_active_fraction": 0.0020898641588296763,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000124"
+    ],
+    "right_source_id": "n000119",
+    "pitch_midi": 76,
+    "boundary_sec": 25.0465179138322,
+    "gap_sec": 9.01447800453515,
+    "model_onset_peak": 0.6063145399093628,
+    "nearest_audio_onset_distance_sec": 0.015406802721088297,
+    "bridge_active_fraction": 0.002560819462227913,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000119"
+    ],
+    "right_source_id": "n000056",
+    "pitch_midi": 76,
+    "boundary_sec": 36.838348299319726,
+    "gap_sec": 10.815308390022675,
+    "model_onset_peak": 0.7765079736709595,
+    "nearest_audio_onset_distance_sec": 0.00010975056689233043,
+    "bridge_active_fraction": 0.004268943436499467,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000056"
+    ],
+    "right_source_id": "n000049",
+    "pitch_midi": 76,
+    "boundary_sec": 47.35179727891156,
+    "gap_sec": 9.967780045351475,
+    "model_onset_peak": 0.7843424081802368,
+    "nearest_audio_onset_distance_sec": 0.005300226757370297,
+    "bridge_active_fraction": 0.003472222222222222,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000049"
+    ],
+    "right_source_id": "n000128",
+    "pitch_midi": 76,
+    "boundary_sec": 52.2666693877551,
+    "gap_sec": 3.8803002267573703,
+    "model_onset_peak": 0.5197706818580627,
+    "nearest_audio_onset_distance_sec": 2.4714766439909255,
+    "bridge_active_fraction": 0.002967359050445104,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000128"
+    ],
+    "right_source_id": "n000131",
+    "pitch_midi": 76,
+    "boundary_sec": 59.08557777777778,
+    "gap_sec": 6.296459410430842,
+    "model_onset_peak": 0.6800239682197571,
+    "nearest_audio_onset_distance_sec": 0.17174648526076908,
+    "bridge_active_fraction": 0.003663003663003663,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000131"
+    ],
+    "right_source_id": "n000111",
+    "pitch_midi": 76,
+    "boundary_sec": 63.18646757369615,
+    "gap_sec": 3.6016607709750588,
+    "model_onset_peak": 0.6613061428070068,
+    "nearest_audio_onset_distance_sec": 0.004970975056693305,
+    "bridge_active_fraction": 0.06389776357827476,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000111"
+    ],
+    "right_source_id": "n000121",
+    "pitch_midi": 76,
+    "boundary_sec": 65.78967029478459,
+    "gap_sec": 0.8372022675737014,
+    "model_onset_peak": 0.6305640339851379,
+    "nearest_audio_onset_distance_sec": 0.015681179138312018,
+    "bridge_active_fraction": 0.02702702702702703,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000121"
+    ],
+    "right_source_id": "n000038",
+    "pitch_midi": 76,
+    "boundary_sec": 70.43622902494332,
+    "gap_sec": 3.5320009070294844,
+    "model_onset_peak": 0.7405797839164734,
+    "nearest_audio_onset_distance_sec": 0.02472335600906206,
+    "bridge_active_fraction": 0.006514657980456026,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000038"
+    ],
+    "right_source_id": "n000117",
+    "pitch_midi": 76,
+    "boundary_sec": 73.46771700680272,
+    "gap_sec": 2.4277691609977268,
+    "model_onset_peak": 0.5344052910804749,
+    "nearest_audio_onset_distance_sec": 0.023000453514740116,
+    "bridge_active_fraction": 0.004739336492890996,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000117"
+    ],
+    "right_source_id": "n000132",
+    "pitch_midi": 76,
+    "boundary_sec": 75.51364081632653,
+    "gap_sec": 0.5237328798185956,
+    "model_onset_peak": 0.4603723883628845,
+    "nearest_audio_onset_distance_sec": 1.8204181405895667,
+    "bridge_active_fraction": 0.0425531914893617,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000132"
+    ],
+    "right_source_id": "n000142",
+    "pitch_midi": 76,
+    "boundary_sec": 80.33434920634922,
+    "gap_sec": 3.8338603174603207,
+    "model_onset_peak": 0.3606041669845581,
+    "nearest_audio_onset_distance_sec": 0.07457596371882858,
+    "bridge_active_fraction": 0.006006006006006006,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000142"
+    ],
+    "right_source_id": "n000127",
+    "pitch_midi": 76,
+    "boundary_sec": 88.55934875283447,
+    "gap_sec": 8.004409977324258,
+    "model_onset_peak": 0.6117643713951111,
+    "nearest_audio_onset_distance_sec": 0.0015582766439905527,
+    "bridge_active_fraction": 0.03602305475504323,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000127"
+    ],
+    "right_source_id": "n000024",
+    "pitch_midi": 76,
+    "boundary_sec": 100.8504081632653,
+    "gap_sec": 11.221657596371884,
+    "model_onset_peak": 0.7653878331184387,
+    "nearest_audio_onset_distance_sec": 0.01707482993198539,
+    "bridge_active_fraction": 0.0030864197530864196,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000024"
+    ],
+    "right_source_id": "n000123",
+    "pitch_midi": 76,
+    "boundary_sec": 107.82153015873017,
+    "gap_sec": 6.435779138322005,
+    "model_onset_peak": 0.6396585702896118,
+    "nearest_audio_onset_distance_sec": 0.023549206349201768,
+    "bridge_active_fraction": 0.0017921146953405018,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000123"
+    ],
+    "right_source_id": "n000133",
+    "pitch_midi": 76,
+    "boundary_sec": 111.43480090702947,
+    "gap_sec": 2.5451528344671033,
+    "model_onset_peak": 0.3656179904937744,
+    "nearest_audio_onset_distance_sec": 0.7756299319728015,
+    "bridge_active_fraction": 0.009009009009009009,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000133"
+    ],
+    "right_source_id": "n000098",
+    "pitch_midi": 76,
+    "boundary_sec": 122.09917959183673,
+    "gap_sec": 9.840070294784582,
+    "model_onset_peak": 0.5444090962409973,
+    "nearest_audio_onset_distance_sec": 1.1464358276643907,
+    "bridge_active_fraction": 0.0023446658851113715,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000100"
+    ],
+    "right_source_id": "n000114",
+    "pitch_midi": 77,
+    "boundary_sec": 59.713800453514736,
+    "gap_sec": 1.591850793650785,
+    "model_onset_peak": 0.36681634187698364,
+    "nearest_audio_onset_distance_sec": 0.45647619047618804,
+    "bridge_active_fraction": 0.20863309352517986,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000114"
+    ],
+    "right_source_id": "n000084",
+    "pitch_midi": 77,
+    "boundary_sec": 80.69425850340137,
+    "gap_sec": 20.063269841269857,
+    "model_onset_peak": 0.44255203008651733,
+    "nearest_audio_onset_distance_sec": 0.4344852607709839,
+    "bridge_active_fraction": 0.0011507479861910242,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000078"
+    ],
+    "right_source_id": "n000077",
+    "pitch_midi": 78,
+    "boundary_sec": 1.9853061224489796,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7450061440467834,
+    "nearest_audio_onset_distance_sec": 1.3931972789115645,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000078",
+      "n000077"
+    ],
+    "right_source_id": "n000086",
+    "pitch_midi": 78,
+    "boundary_sec": 15.95077006802721,
+    "gap_sec": 13.314021315192743,
+    "model_onset_peak": 0.693697452545166,
+    "nearest_audio_onset_distance_sec": 1.9143074829931965,
+    "bridge_active_fraction": 0.0008665511265164644,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000086"
+    ],
+    "right_source_id": "n000101",
+    "pitch_midi": 78,
+    "boundary_sec": 23.582376870748302,
+    "gap_sec": 6.493829024943313,
+    "model_onset_peak": 0.37583085894584656,
+    "nearest_audio_onset_distance_sec": 1.4487342403628105,
+    "bridge_active_fraction": 0.04085257548845471,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000101"
+    ],
+    "right_source_id": "n000055",
+    "pitch_midi": 78,
+    "boundary_sec": 37.31435736961451,
+    "gap_sec": 13.161807709750565,
+    "model_onset_peak": 0.7594276666641235,
+    "nearest_audio_onset_distance_sec": 0.011500226757370058,
+    "bridge_active_fraction": 0.0035087719298245615,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000055"
+    ],
+    "right_source_id": "n000110",
+    "pitch_midi": 78,
+    "boundary_sec": 48.247049433106575,
+    "gap_sec": 10.281249433106574,
+    "model_onset_peak": 0.6996263265609741,
+    "nearest_audio_onset_distance_sec": 0.007593650793651818,
+    "bridge_active_fraction": 0.001122334455667789,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000110"
+    ],
+    "right_source_id": "n000048",
+    "pitch_midi": 78,
+    "boundary_sec": 48.537298866213156,
+    "gap_sec": 0.011609977324269494,
+    "model_onset_peak": 0.7763463258743286,
+    "nearest_audio_onset_distance_sec": 0.29784308390023284,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000110",
+      "n000048"
+    ],
+    "right_source_id": "n000047",
+    "pitch_midi": 78,
+    "boundary_sec": 48.72305850340136,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7809834480285645,
+    "nearest_audio_onset_distance_sec": 0.48360272108843816,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000110",
+      "n000048",
+      "n000047"
+    ],
+    "right_source_id": "n000113",
+    "pitch_midi": 78,
+    "boundary_sec": 52.7078485260771,
+    "gap_sec": 3.555220861678009,
+    "model_onset_peak": 0.611335039138794,
+    "nearest_audio_onset_distance_sec": 2.9126557823129247,
+    "bridge_active_fraction": 0.025889967637540454,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000113"
+    ],
+    "right_source_id": "n000044",
+    "pitch_midi": 78,
+    "boundary_sec": 53.14902766439909,
+    "gap_sec": 0.011609977324262388,
+    "model_onset_peak": 0.7200501561164856,
+    "nearest_audio_onset_distance_sec": 3.205802267573695,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000113",
+      "n000044"
+    ],
+    "right_source_id": "n000037",
+    "pitch_midi": 78,
+    "boundary_sec": 71.03994784580499,
+    "gap_sec": 16.60092879818594,
+    "model_onset_peak": 0.7175745368003845,
+    "nearest_audio_onset_distance_sec": 0.021716553287987495,
+    "bridge_active_fraction": 0.002086230876216968,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000037"
+    ],
+    "right_source_id": "n000036",
+    "pitch_midi": 78,
+    "boundary_sec": 72.29510929705215,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7104572653770447,
+    "nearest_audio_onset_distance_sec": 1.149607256235825,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000037",
+      "n000036"
+    ],
+    "right_source_id": "n000035",
+    "pitch_midi": 78,
+    "boundary_sec": 72.66662857142856,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7384494543075562,
+    "nearest_audio_onset_distance_sec": 0.7780879818594144,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000037",
+      "n000036",
+      "n000035"
+    ],
+    "right_source_id": "n000099",
+    "pitch_midi": 78,
+    "boundary_sec": 83.28456734693877,
+    "gap_sec": 9.805240362811787,
+    "model_onset_peak": 0.37997305393218994,
+    "nearest_audio_onset_distance_sec": 3.024794104308384,
+    "bridge_active_fraction": 0.02235294117647059,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000099"
+    ],
+    "right_source_id": "n000033",
+    "pitch_midi": 78,
+    "boundary_sec": 84.1101596371882,
+    "gap_sec": 0.011609977324255283,
+    "model_onset_peak": 0.7801020741462708,
+    "nearest_audio_onset_distance_sec": 3.850386394557816,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000099",
+      "n000033"
+    ],
+    "right_source_id": "n000032",
+    "pitch_midi": 78,
+    "boundary_sec": 86.85139818594105,
+    "gap_sec": 0.8591383219954736,
+    "model_onset_peak": 0.8766247034072876,
+    "nearest_audio_onset_distance_sec": 1.7095088435374066,
+    "bridge_active_fraction": 0.05333333333333334,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000032"
+    ],
+    "right_source_id": "n000023",
+    "pitch_midi": 78,
+    "boundary_sec": 101.3741410430839,
+    "gap_sec": 13.650710657596363,
+    "model_onset_peak": 0.767318844795227,
+    "nearest_audio_onset_distance_sec": 0.007429024943306217,
+    "bridge_active_fraction": 0.00253592561284869,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000023"
+    ],
+    "right_source_id": "n000019",
+    "pitch_midi": 78,
+    "boundary_sec": 109.58753061224489,
+    "gap_sec": 7.133661678004529,
+    "model_onset_peak": 0.809151828289032,
+    "nearest_audio_onset_distance_sec": 1.7424512471655191,
+    "bridge_active_fraction": 0.0032310177705977385,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000019"
+    ],
+    "right_source_id": "n000006",
+    "pitch_midi": 78,
+    "boundary_sec": 126.2348993197279,
+    "gap_sec": 15.60247074829934,
+    "model_onset_peak": 0.8726584911346436,
+    "nearest_audio_onset_distance_sec": 1.486461224489787,
+    "bridge_active_fraction": 0.0036982248520710057,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000082"
+    ],
+    "right_source_id": "n000065",
+    "pitch_midi": 79,
+    "boundary_sec": 22.409769160997733,
+    "gap_sec": 20.621832653061226,
+    "model_onset_peak": 0.5622319579124451,
+    "nearest_audio_onset_distance_sec": 2.6213419501133792,
+    "bridge_active_fraction": 0.011751538891997761,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000065"
+    ],
+    "right_source_id": "n000051",
+    "pitch_midi": 79,
+    "boundary_sec": 46.57392879818594,
+    "gap_sec": 22.991551927437637,
+    "model_onset_peak": 0.7311440706253052,
+    "nearest_audio_onset_distance_sec": 0.7831687074829929,
+    "bridge_active_fraction": 0.0015060240963855422,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000051"
+    ],
+    "right_source_id": "n000050",
+    "pitch_midi": 79,
+    "boundary_sec": 46.84095827664399,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7195430397987366,
+    "nearest_audio_onset_distance_sec": 0.5161392290249438,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000051",
+      "n000050"
+    ],
+    "right_source_id": "n000046",
+    "pitch_midi": 79,
+    "boundary_sec": 49.15262766439909,
+    "gap_sec": 1.6499006802721112,
+    "model_onset_peak": 0.7652072310447693,
+    "nearest_audio_onset_distance_sec": 0.6425650793650846,
+    "bridge_active_fraction": 0.027777777777777776,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000046"
+    ],
+    "right_source_id": "n000103",
+    "pitch_midi": 79,
+    "boundary_sec": 85.99225986394558,
+    "gap_sec": 35.81667029478458,
+    "model_onset_peak": 0.48329970240592957,
+    "nearest_audio_onset_distance_sec": 2.56864716553288,
+    "bridge_active_fraction": 0.010315925209542231,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000103"
+    ],
+    "right_source_id": "n000020",
+    "pitch_midi": 79,
+    "boundary_sec": 108.71549841269842,
+    "gap_sec": 21.875710204081642,
+    "model_onset_peak": 0.7973492741584778,
+    "nearest_audio_onset_distance_sec": 0.8704190476190519,
+    "bridge_active_fraction": 0.0079155672823219,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000020"
+    ],
+    "right_source_id": "n000109",
+    "pitch_midi": 79,
+    "boundary_sec": 129.72046031746032,
+    "gap_sec": 20.13292970521543,
+    "model_onset_peak": 0.699867308139801,
+    "nearest_audio_onset_distance_sec": 1.9990997732426337,
+    "bridge_active_fraction": 0.011467889908256881,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000109"
+    ],
+    "right_source_id": "n000004",
+    "pitch_midi": 79,
+    "boundary_sec": 130.99755782312926,
+    "gap_sec": 0.011609977324269494,
+    "model_onset_peak": 0.7075351476669312,
+    "nearest_audio_onset_distance_sec": 3.2761972789115674,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000109",
+      "n000004"
+    ],
+    "right_source_id": "n000003",
+    "pitch_midi": 79,
+    "boundary_sec": 132.542968707483,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7129681706428528,
+    "nearest_audio_onset_distance_sec": 4.82160816326531,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000109",
+      "n000004",
+      "n000003"
+    ],
+    "right_source_id": "n000002",
+    "pitch_midi": 79,
+    "boundary_sec": 132.9493179138322,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.7931956052780151,
+    "nearest_audio_onset_distance_sec": 5.227957369614515,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000109",
+      "n000004",
+      "n000003",
+      "n000002"
+    ],
+    "right_source_id": "n000001",
+    "pitch_midi": 79,
+    "boundary_sec": 137.84097006802722,
+    "gap_sec": 0.0,
+    "model_onset_peak": 0.8209391832351685,
+    "nearest_audio_onset_distance_sec": 10.11960952380953,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000107"
+    ],
+    "right_source_id": "n000093",
+    "pitch_midi": 81,
+    "boundary_sec": 106.94949795918367,
+    "gap_sec": 49.67636054421769,
+    "model_onset_peak": 0.6370435357093811,
+    "nearest_audio_onset_distance_sec": 0.021606802721095164,
+    "bridge_active_fraction": 0.00046490004649000463,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000079"
+    ],
+    "right_source_id": "n000052",
+    "pitch_midi": 83,
+    "boundary_sec": 45.70318049886621,
+    "gap_sec": 25.430931065759633,
+    "model_onset_peak": 0.7154021263122559,
+    "nearest_audio_onset_distance_sec": 0.005300226757370297,
+    "bridge_active_fraction": 0.009078529278256923,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000052"
+    ],
+    "right_source_id": "n000137",
+    "pitch_midi": 83,
+    "boundary_sec": 88.31553922902495,
+    "gap_sec": 41.59068072562359,
+    "model_onset_peak": 0.2548019289970398,
+    "nearest_audio_onset_distance_sec": 0.2453678004535078,
+    "bridge_active_fraction": 0.003609106052193226,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000137"
+    ],
+    "right_source_id": "n000021",
+    "pitch_midi": 83,
+    "boundary_sec": 102.23327936507937,
+    "gap_sec": 13.755200453514732,
+    "model_onset_peak": 0.8570660352706909,
+    "nearest_audio_onset_distance_sec": 0.8665673469387798,
+    "bridge_active_fraction": 0.0041946308724832215,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000105"
+    ],
+    "right_source_id": "n000043",
+    "pitch_midi": 84,
+    "boundary_sec": 55.92638004535147,
+    "gap_sec": 0.011609977324262388,
+    "model_onset_peak": 0.7460982799530029,
+    "nearest_audio_onset_distance_sec": 0.42844988662131556,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000155"
+    ],
+    "right_source_id": "n000139",
+    "pitch_midi": 85,
+    "boundary_sec": 79.05596780045352,
+    "gap_sec": 42.82133832199547,
+    "model_onset_peak": 0.38012343645095825,
+    "nearest_audio_onset_distance_sec": 1.203805442176872,
+    "bridge_active_fraction": 0.0005393743257820927,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000085"
+    ],
+    "right_source_id": "n000053",
+    "pitch_midi": 86,
+    "boundary_sec": 40.277469387755104,
+    "gap_sec": 0.011609977324262388,
+    "model_onset_peak": 0.7502840757369995,
+    "nearest_audio_onset_distance_sec": 0.8732063492063489,
+    "bridge_active_fraction": 1.0,
+    "merged": true,
+    "reason": "continuous_same_pitch"
+  },
+  {
+    "left_source_ids": [
+      "n000085",
+      "n000053"
+    ],
+    "right_source_id": "n000080",
+    "pitch_midi": 86,
+    "boundary_sec": 44.761488435374154,
+    "gap_sec": 1.9285401360544299,
+    "model_onset_peak": 0.6694945096969604,
+    "nearest_audio_onset_distance_sec": 0.04141405895691008,
+    "bridge_active_fraction": 0.005952380952380952,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000080"
+    ],
+    "right_source_id": "n000166",
+    "pitch_midi": 86,
+    "boundary_sec": 51.092777777777776,
+    "gap_sec": 5.157397732426304,
+    "model_onset_peak": 0.46065840125083923,
+    "nearest_audio_onset_distance_sec": 1.2975850340136006,
+    "bridge_active_fraction": 0.0044742729306487695,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000166"
+    ],
+    "right_source_id": "n000165",
+    "pitch_midi": 86,
+    "boundary_sec": 62.87299818594104,
+    "gap_sec": 11.606070748299324,
+    "model_onset_peak": 0.3611896336078644,
+    "nearest_audio_onset_distance_sec": 0.3084984126984125,
+    "bridge_active_fraction": 0.003976143141153081,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000135"
+    ],
+    "right_source_id": "n000148",
+    "pitch_midi": 88,
+    "boundary_sec": 3.925456235827664,
+    "gap_sec": 0.16253968253968232,
+    "model_onset_peak": 0.3606730103492737,
+    "nearest_audio_onset_distance_sec": 0.2773555555555558,
+    "bridge_active_fraction": 0.13333333333333333,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000148"
+    ],
+    "right_source_id": "n000152",
+    "pitch_midi": 88,
+    "boundary_sec": 15.392207256235828,
+    "gap_sec": 11.256487528344671,
+    "model_onset_peak": 0.44005846977233887,
+    "nearest_audio_onset_distance_sec": 1.3557446712018137,
+    "bridge_active_fraction": 0.0071794871794871795,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000152"
+    ],
+    "right_source_id": "n000145",
+    "pitch_midi": 88,
+    "boundary_sec": 25.058127891156463,
+    "gap_sec": 9.201521541950115,
+    "model_onset_peak": 0.578832745552063,
+    "nearest_audio_onset_distance_sec": 0.027016780045350686,
+    "bridge_active_fraction": 0.002506265664160401,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000145"
+    ],
+    "right_source_id": "n000161",
+    "pitch_midi": 88,
+    "boundary_sec": 66.27728934240363,
+    "gap_sec": 40.41678911564627,
+    "model_onset_peak": 0.5460602045059204,
+    "nearest_audio_onset_distance_sec": 0.4452503401360417,
+    "bridge_active_fraction": 0.008285714285714285,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000161"
+    ],
+    "right_source_id": "n000143",
+    "pitch_midi": 88,
+    "boundary_sec": 70.51749886621316,
+    "gap_sec": 3.984790022675739,
+    "model_onset_peak": 0.2642229497432709,
+    "nearest_audio_onset_distance_sec": 0.056546485260781765,
+    "bridge_active_fraction": 0.005780346820809248,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000143"
+    ],
+    "right_source_id": "n000149",
+    "pitch_midi": 88,
+    "boundary_sec": 73.64315056689342,
+    "gap_sec": 2.905062131519273,
+    "model_onset_peak": 0.45215877890586853,
+    "nearest_audio_onset_distance_sec": 0.19843401360544988,
+    "bridge_active_fraction": 0.007905138339920948,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000149"
+    ],
+    "right_source_id": "n000150",
+    "pitch_midi": 88,
+    "boundary_sec": 108.29753922902495,
+    "gap_sec": 34.39896916099774,
+    "model_onset_peak": 0.32051506638526917,
+    "nearest_audio_onset_distance_sec": 0.45245986394557747,
+    "bridge_active_fraction": 0.012420275260154415,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000150"
+    ],
+    "right_source_id": "n000134",
+    "pitch_midi": 88,
+    "boundary_sec": 122.62162857142857,
+    "gap_sec": 14.022229931972788,
+    "model_onset_peak": 0.47167572379112244,
+    "nearest_audio_onset_distance_sec": 1.6688848072562337,
+    "bridge_active_fraction": 0.012345679012345678,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000144"
+    ],
+    "right_source_id": "n000022",
+    "pitch_midi": 90,
+    "boundary_sec": 102.03590975056689,
+    "gap_sec": 15.021971882086163,
+    "model_onset_peak": 0.7037467360496521,
+    "nearest_audio_onset_distance_sec": 0.6691977324262979,
+    "bridge_active_fraction": 0.0015360983102918587,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000136"
+    ],
+    "right_source_id": "n000153",
+    "pitch_midi": 91,
+    "boundary_sec": 130.46349886621317,
+    "gap_sec": 83.18136145124718,
+    "model_onset_peak": 0.30820682644844055,
+    "nearest_audio_onset_distance_sec": 2.7421383219954834,
+    "bridge_active_fraction": 0.0006941552131056504,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000153"
+    ],
+    "right_source_id": "n000146",
+    "pitch_midi": 91,
+    "boundary_sec": 130.77696825396828,
+    "gap_sec": 0.13931972789117708,
+    "model_onset_peak": 0.3547823429107666,
+    "nearest_audio_onset_distance_sec": 3.055607709750589,
+    "bridge_active_fraction": 0.15384615384615385,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000146"
+    ],
+    "right_source_id": "n000151",
+    "pitch_midi": 91,
+    "boundary_sec": 131.35875102040816,
+    "gap_sec": 0.3263632653060995,
+    "model_onset_peak": 0.41939470171928406,
+    "nearest_audio_onset_distance_sec": 3.6373904761904754,
+    "bridge_active_fraction": 0.06666666666666667,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000141"
+    ],
+    "right_source_id": "n000164",
+    "pitch_midi": 97,
+    "boundary_sec": 66.75329841269841,
+    "gap_sec": 52.777508390022675,
+    "model_onset_peak": 0.5800895094871521,
+    "nearest_audio_onset_distance_sec": 0.030758730158737535,
+    "bridge_active_fraction": 0.000437636761487965,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000164"
+    ],
+    "right_source_id": "n000158",
+    "pitch_midi": 97,
+    "boundary_sec": 91.42958095238095,
+    "gap_sec": 24.49052290249432,
+    "model_onset_peak": 0.401223748922348,
+    "nearest_audio_onset_distance_sec": 1.90504580498866,
+    "bridge_active_fraction": 0.013666352497643733,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000158"
+    ],
+    "right_source_id": "n000159",
+    "pitch_midi": 97,
+    "boundary_sec": 99.3282172335601,
+    "gap_sec": 7.5735569160997755,
+    "model_onset_peak": 0.39613568782806396,
+    "nearest_audio_onset_distance_sec": 0.0745210884353753,
+    "bridge_active_fraction": 0.003048780487804878,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000160"
+    ],
+    "right_source_id": "n000163",
+    "pitch_midi": 98,
+    "boundary_sec": 131.96246984126984,
+    "gap_sec": 85.12151156462585,
+    "model_onset_peak": 0.17475928366184235,
+    "nearest_audio_onset_distance_sec": 4.241109297052148,
+    "bridge_active_fraction": 0.006376339709673043,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000163"
+    ],
+    "right_source_id": "n000147",
+    "pitch_midi": 98,
+    "boundary_sec": 135.2506612244898,
+    "gap_sec": 3.1256517006802653,
+    "model_onset_peak": 0.46813690662384033,
+    "nearest_audio_onset_distance_sec": 7.529300680272101,
+    "bridge_active_fraction": 0.058823529411764705,
+    "merged": false,
+    "reason": "gap_too_long"
+  },
+  {
+    "left_source_ids": [
+      "n000147"
+    ],
+    "right_source_id": "n000156",
+    "pitch_midi": 98,
+    "boundary_sec": 136.8296181405896,
+    "gap_sec": 0.13931972789117708,
+    "model_onset_peak": 0.2678767144680023,
+    "nearest_audio_onset_distance_sec": 9.1082575963719,
+    "bridge_active_fraction": 0.15384615384615385,
+    "merged": false,
+    "reason": "gap_too_long"
+  }
+]

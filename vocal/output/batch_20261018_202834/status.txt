@@ -1,0 +1,9 @@
+状态：completed
+最近更新：2026-10-18T23:08:31+08:00
+完成：3/3；失败：0
+当前歌曲：自无垠处归航之星-人声谱.mp3
+当前阶段：批处理结束
+日志：D:\myAPP\ToNote\vocal\output\batch_20261018_202834\progress.log
+completed | 且听风吟-人声谱.mp3 | D:\myAPP\ToNote\vocal\output\且听风吟-人声谱_separation_compare\index.html
+completed | 也许你愿意-人声谱.mp3 | D:\myAPP\ToNote\vocal\output\也许你愿意-人声谱_separation_compare\index.html
+completed | 自无垠处归航之星-人声谱.mp3 | D:\myAPP\ToNote\vocal\output\自无垠处归航之星-人声谱_separation_compare\index.html

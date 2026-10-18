@@ -1,0 +1,36 @@
+{
+  "model": "htdemucs",
+  "audio_sha256": "f7853f4fe92b2d293b9b78a63906f9b1af83dd3450ea7fa6ce55f61a216340e9",
+  "mode": "reused",
+  "source": "D:\\myAPP\\ToNote\\vocal\\output\\revised\\莫非定律乐团 - Lidocaine\\vocals.wav",
+  "historical_run": {
+    "input": "D:\\myAPP\\ToNote\\input\\莫非定律乐团 - Lidocaine.mp3",
+    "config": {
+      "min_pitch": 36,
+      "max_pitch": 96,
+      "min_confidence": 0.5,
+      "min_note_duration": 0.08,
+      "pitch_tolerance_cents": 50,
+      "smooth_ms": 70,
+      "stable_ms": 100,
+      "max_gap_ms": 30,
+      "silence_db": -55,
+      "quantization_strength": 1.0,
+      "time_signature": "4/4",
+      "key": null,
+      "bpm": null,
+      "beat_offset": 0.0,
+      "backend": "pyin",
+      "device": "auto",
+      "hop_seconds": 0.01
+    },
+    "started": "2026-09-22T20:32:04.725881",
+    "output": "D:\\myAPP\\ToNote\\output\\revised\\莫非定律乐团 - Lidocaine",
+    "device": "cpu",
+    "bpm": 125.0,
+    "key": "a minor",
+    "notes": 367,
+    "status": "success"
+  },
+  "note": "Historical source path/duration checked; historical input hash was not recorded."
+}

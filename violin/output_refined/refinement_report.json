@@ -1,0 +1,94 @@
+{
+  "config": {
+    "onset_threshold": 0.7,
+    "frame_threshold": 0.3,
+    "minimum_note_length": 127.7,
+    "minimum_frequency": 196.0,
+    "maximum_frequency": 2637.0,
+    "multiple_pitch_bends": true,
+    "melodia_trick": true,
+    "short_note_ms": 150.0,
+    "harmonic_tolerance_cents": 35.0,
+    "harmonic_overlap_ratio": 0.8,
+    "coincident_onset_sec": 0.08,
+    "coincident_end_sec": 0.15,
+    "max_harmonic": 8,
+    "midi_ticks_per_beat": 9600,
+    "midi_tempo": 120,
+    "violin_program": 40,
+    "bend_range_semitones": 2,
+    "refine_notes": false,
+    "merge_gap_ms": 40.0,
+    "onset_tolerance_ms": 60.0,
+    "strong_model_onset": 0.9,
+    "bridge_active_fraction": 0.8,
+    "audio_onset_delta": 0.12,
+    "audio_onset_wait_ms": 80.0,
+    "audio_sample_rate": 22050,
+    "audio_hop_length": 256,
+    "vibrato_max_size": 3,
+    "overlap_tolerance_sec": 1e-06
+  },
+  "input": "D:\\myAPP\\ToNote\\violin\\input\\天鹅-小提琴.mp3",
+  "model_output": "D:\\myAPP\\ToNote\\violin\\output\\model_outputs.npz",
+  "input_sha256": "eb8b466de9cb46d5de2e5d8d61355313e3e6a61a5fa85dc3a21bdee368125706",
+  "model_output_sha256": "d33fd7dd301fb5a38c992267bbe894e0af1055c1ab8df40cbf5254d4870a90a8",
+  "audio_duration_sec": 140.19918367346938,
+  "baseline_notes": 417,
+  "decoded_notes": 165,
+  "refined_notes": 144,
+  "merges": 21,
+  "detected_audio_onsets": 53,
+  "parameter_comparison_counts": {
+    "onset=0.5,melodia=False": 385,
+    "onset=0.5,melodia=True": 417,
+    "onset=0.7,melodia=False": 78,
+    "onset=0.7,melodia=True": 165
+  },
+  "decoded_bend_samples": 12921,
+  "refined_bend_samples": 12921,
+  "overlapping_pairs_before": 116,
+  "overlapping_pairs_after": 114,
+  "validation": {
+    "decoded_plain": {
+      "notes": 165,
+      "pitchwheel_events": 0,
+      "source_bends_verified": 0,
+      "max_time_error_sec": 2.6006235827935598e-05,
+      "midi_duration_sec": 138.66526041666657,
+      "ports": 1
+    },
+    "decoded_expressive": {
+      "notes": 165,
+      "pitchwheel_events": 13086,
+      "source_bends_verified": 12921,
+      "max_time_error_sec": 2.6006235827935598e-05,
+      "midi_duration_sec": 138.665260416649,
+      "ports": 1
+    },
+    "refined_plain": {
+      "notes": 144,
+      "pitchwheel_events": 0,
+      "source_bends_verified": 0,
+      "max_time_error_sec": 2.5892857138387626e-05,
+      "midi_duration_sec": 138.66526041666663,
+      "ports": 1
+    },
+    "refined_expressive": {
+      "notes": 144,
+      "pitchwheel_events": 13065,
+      "source_bends_verified": 12921,
+      "max_time_error_sec": 2.5892857138387626e-05,
+      "midi_duration_sec": 138.665260416649,
+      "ports": 1
+    }
+  },
+  "limitations": [
+    "Counts are not accuracy; listen and inspect real repeated bow attacks.",
+    "Decoder parameter changes can lose real notes; baseline is retained separately.",
+    "Audio onsets are broadband veto evidence, not per-note proof; another voice can veto merging.",
+    "Harmonic candidates are flagged, never automatically deleted.",
+    "Model uses its existing frame timing; possible model/audio timing differences remain.",
+    "No beat detection, rhythm quantization, MusicXML, or inferred bowing labels."
+  ]
+}

@@ -237,6 +237,16 @@ def main(argv=None):
                         python=sys.version, started=datetime.now(timezone(timedelta(hours=8))).isoformat())
         write_json(output / "run.json", metadata)
         run(source, output, config, metadata)
+        if config.refine_notes:
+            write_json(output / "run.json", metadata)
+            from .config import RefinementConfig
+            from .refinement import run as refine_run
+            refine_config = RefinementConfig(**{name: getattr(config, name)
+                for name in Config.__dataclass_fields__ if name != "onset_threshold"})
+            refinement_output = reserve_output(output / "refined")
+            metadata["refinement"] = refine_run(source, output / "model_outputs.npz",
+                                                 refinement_output, refine_config)
+            metadata["refinement_output"] = str(refinement_output)
         logging.info("Complete: %s", output)
         logging.info("Notes raw/filtered: %d/%d; overlap pairs: %d; octave candidates: %d",
                      metadata["raw_note_count"], metadata["filtered_note_count"],

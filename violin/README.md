@@ -1,5 +1,48 @@
 # Basic Pitch 小提琴转 MIDI MVP
 
+## 音符修整（2026-10-18）
+
+已有 `output/model_outputs.npz` 时，在 `violin/` 中运行下面的命令，不需要再次跑模型：
+
+```powershell
+.\.venv\Scripts\python.exe refine_violin.py "input/天鹅-小提琴.mp3"
+```
+
+新结果放在 `output_refined/`；目录已有结果时自动创建带后缀的目录，不覆盖旧结果。优先试听 `violin_refined_plain.mid`，并查看 `refinement_comparison.png` 和 `refinement_110_end.png`。
+
+新音频可以一次执行原始转录和修整：
+
+```powershell
+.\.venv\Scripts\python.exe transcribe_violin.py "input/新录音.wav" --refine --output output_new
+```
+
+原始结果保存在 `output_new/`，修整结果另放 `output_new/refined/`。修整默认起音阈值0.7、持续阈值0.3、最短127.7毫秒、Melodia开启。`librosa` 从原音频提取经过频率方向最大值滤波的起音强度（减轻揉弦影响），用音频起音作为“保留再次起音”的辅助证据。
+
+仅尝试合并同音高、不重叠、间隙最多40毫秒且边界处模型激活持续存在的事件；若60毫秒内有音频起音候选，或模型起音强度达到0.9，则不合并。同音重叠、不同音高和缺乏持续激活的间隙均保留。合并后的 expressive MIDI 使用各源音符原有的弯音时间戳，不把弯音拉伸到合并后的整段。
+
+参数集中在 `violin_transcriber/config.py` 的 `RefinementConfig`。例如：
+
+```powershell
+.\.venv\Scripts\python.exe refine_violin.py "input/天鹅-小提琴.mp3" --onset-threshold 0.7 --merge-gap-ms 40 --onset-tolerance-ms 60 --strong-model-onset 0.9 --audio-onset-delta 0.12 --no-melodia-trick --output output_refined_trial
+```
+
+`--melodia-trick` / `--no-melodia-trick` 同时适用于原始转录入口；在修整入口会另外记录0.5/当前阈值、Melodia开/关的音符数对照。默认继续开启，因为它也可能找回柔和起音。
+
+| 输出 | 用途 |
+| --- | --- |
+| `violin_decoded_plain.mid` / `violin_decoded_expressive.mid` | 调参数后、合并前 |
+| `violin_refined_plain.mid` / `violin_refined_expressive.mid` | 保守合并后 |
+| `notes_baseline.csv` / `notes_decoded.csv` / `notes_refined.csv` | 默认解码、调整解码、修整三个阶段；ID在不同阶段间不能直接对应 |
+| `merge_decisions.json` | 同音相邻事件的合并或保留原因、模型/音频证据 |
+| `pitch_bends_refined.json` | 源ID（对应decoded CSV）、原始弯音bin及不经拉伸的秒时间 |
+| `audio_onsets.npz` | 原音频的归一化起音强度及起音候选秒数 |
+| `suspected_errors_refined.csv` | 疑似谐波及重叠等候选；不自动删音 |
+| `refinement_report.json` / `report.txt` | 参数、输入哈希、事件数、MIDI回读验证和限制 |
+
+《天鹅》实测为417 → 165 → 144个事件，21个边界合并。116.7秒附近B4由13次变为1次，末尾G5由25次变为1次；这不能证明整曲准确率。不同音高不参与合并，但提高解码阈值仍可能漏掉真实音符，弱起音也可能被误合并，必须回听。模型帧时间沿用原缓存，尚未修正潜在的模型/音频时间差。
+
+本阶段仍没有节奏量化或MusicXML，不把谱面当作修整算法的输入，也不自动删除谐波候选。
+
 面向已分离、相对干净的单把小提琴音频。使用 Spotify Basic Pitch 0.4.0 预训练模型，保留复音和原始弯音。不做人声分离、单音化、节奏量化或技法分类，不接入 VioPTT。
 
 ## 本机运行

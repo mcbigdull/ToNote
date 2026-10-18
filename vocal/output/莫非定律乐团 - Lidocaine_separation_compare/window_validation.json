@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "upstream_prefix_bit_exact": {
+    "note": true,
+    "contour": true,
+    "onset": true
+  },
+  "upstream_frames": 25883,
+  "full_frames": 26058,
+  "explanation": "Same model activations as upstream, plus the retained tail windows; timestamps mapped to original audio windows."
+}

@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "started": "2026-10-18T20:28:35+08:00",
+  "pid": 14864,
+  "log": "D:\\myAPP\\ToNote\\vocal\\output\\batch_20261018_202834\\progress.log",
+  "completed": 3,
+  "failed": 0,
+  "songs": [
+    {
+      "input": "D:\\myAPP\\ToNote\\vocal\\input\\且听风吟-人声谱.mp3",
+      "status": "completed",
+      "result": "D:\\myAPP\\ToNote\\vocal\\output\\且听风吟-人声谱_separation_compare\\index.html"
+    },
+    {
+      "input": "D:\\myAPP\\ToNote\\vocal\\input\\也许你愿意-人声谱.mp3",
+      "status": "completed",
+      "result": "D:\\myAPP\\ToNote\\vocal\\output\\也许你愿意-人声谱_separation_compare\\index.html"
+    },
+    {
+      "input": "D:\\myAPP\\ToNote\\vocal\\input\\自无垠处归航之星-人声谱.mp3",
+      "status": "completed",
+      "result": "D:\\myAPP\\ToNote\\vocal\\output\\自无垠处归航之星-人声谱_separation_compare\\index.html"
+    }
+  ],
+  "updated": "2026-10-18T23:08:31+08:00",
+  "current_song": "自无垠处归航之星-人声谱.mp3",
+  "stage": "批处理结束",
+  "finished": "2026-10-18T23:08:31+08:00"
+}

@@ -12,6 +12,7 @@ class Note:
     pitch: int
     score: float
     bends: tuple[int, ...] | None
+    bend_times: tuple[float, ...] | None = None
 
     @property
     def velocity(self):

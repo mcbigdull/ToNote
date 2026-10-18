@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "images_verified": 25,
+  "html_links_verified": 28,
+  "mp3_bytes": 12041447,
+  "mp3_duration_sec": 300.9677551020408,
+  "segment_count": 21,
+  "audio": {
+    "original_mix": {
+      "sample_rate": 44100,
+      "samples": 13272678,
+      "duration_sec": 300.9677551020408,
+      "peak": 1.1274917125701904
+    },
+    "demucs": {
+      "sample_rate": 44100,
+      "samples": 13272678,
+      "duration_sec": 300.9677551020408,
+      "peak": 1.0192638635635376
+    },
+    "bs_roformer": {
+      "sample_rate": 44100,
+      "samples": 13272678,
+      "duration_sec": 300.9677551020408,
+      "peak": 0.944291889667511
+    }
+  },
+  "existing_vocal_regression_tests_passed": 24
+}

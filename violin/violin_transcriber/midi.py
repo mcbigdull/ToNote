@@ -15,7 +15,12 @@ def bend_samples(note):
     if not note.bends:
         return np.array([]), np.array([], dtype=int)
     # Exact Basic Pitch 0.4.0 conversion: +/-2 semitones, 3 bins/semitone.
-    times = np.linspace(note.start, note.end, len(note.bends))
+    times = (np.asarray(note.bend_times, dtype=float) if note.bend_times is not None
+             else np.linspace(note.start, note.end, len(note.bends)))
+    if len(times) != len(note.bends) or np.any(np.diff(times) < 0) or np.any(~np.isfinite(times)):
+        raise ValueError("Invalid explicit pitch-bend timestamps")
+    if len(times) and (times[0] < note.start - 1e-8 or times[-1] > note.end + 1e-8):
+        raise ValueError("Pitch-bend samples outside note")
     values = np.clip(np.round(np.asarray(note.bends) * 4096 / 3), -8192, 8191).astype(int)
     return times, values
 

@@ -1,0 +1,7 @@
+# Separate from both ../.venv and ../violin/.venv (NumPy 2 vs TensorFlow 2.14).
+# Python 3.11. Install into vocal/.venv-separator.
+audio-separator[cpu]==0.47.0
+torch==2.5.1
+torchaudio==2.5.1
+imageio-ffmpeg==0.6.0
+setuptools==80.9.0

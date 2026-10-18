@@ -5,3 +5,5 @@
 *.csv text eol=lf
 *.txt text eol=lf
 *.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
