@@ -34,7 +34,8 @@ def write_player(output, arrays=None):
         if not np.array_equal(times, data['frame_times_sec']) or abs(float(data['audio_duration_sec']) - duration) > 1e-6:
             raise ValueError('Player requires aligned audio timelines')
         audio = 'vocals.mp3' if (output / name / 'vocals.mp3').exists() else 'audio.wav'
-        players.append(f'<section><strong>{label}</strong><audio controls preload="metadata" data-label="{label}" src="{name}/{audio}"></audio><a href="{name}/{audio}" download>下载音频</a></section>')
+        audio_path = f'web_audio/{name}.mp3' if (output / 'web_audio' / f'{name}.mp3').is_file() else f'{name}/{audio}'
+        players.append(f'<section><strong>{label}</strong><audio controls preload="metadata" data-label="{label}" src="{audio_path}"></audio><a href="{audio_path}" download>下载音频</a></section>')
     for key in ('note', 'contour'):
         for name, label in labels.items():
             data = arrays[name]
